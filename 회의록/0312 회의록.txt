@@ -1,0 +1,55 @@
+다인 - 개발 부분 눈길도 안줌, 기술 쓰는 카테고리만
+   데이터 마이닝, 매트랩, 블록체인 등등
+   제일 끌리는 애는 food recipes rating system based on emotional analysis
+   online book recommendation using collaborative filtering
+   눈에 보이는 결과가 나오는 프로젝트가 끌림
+
+상화 - 세개의 기술이 들어가서 명확히 나누어지는것
+   online ai shopping with m-wallet system
+   ai 모델 및 알고리즘, 쇼핑몰 관리, 결제 수단
+   hotel management android project
+   고객 관리, 직원 관리, 호텔 홍보 및 방 추천
+   tv show popularity analysis using data mining
+   데이터 마이닝, sentimental, popularity
+
+희민 - 제일 처음 찾은거 opinion mining for automated restaurant reviews rating
+   opinion mining, 관리자 페이지 등, 유저 관련 기능 이렇게 세개로 나눔
+   교수님이 말씀하셨던거랑 비슷
+   카테고리는 데이터 마이닝
+   college forums with alumni based on content filtering
+   학생과 교수님의 커뮤니티, 관리자가 포스트 내용을 확인 후 게시해야 함
+   근데 너무 범위가 좁아서 세개로 나누기 힘듦
+   sql injection prevention system
+   지인이 쉽다고 추천, 해킹 방지 시스템
+
+보림 - python 카테고리에서: opinion mining for comment sentiment analysis
+   포스트와 코멘트 관리, 텍스트에서 감정 단어 추출, 감정 분석 후 평가
+   사원 월급 주는 프로젝트
+   데이터 마이닝 카테고리에서: 영화 성공 예측
+   글에서 토픽, 줄거리 뽑아내기
+   범죄 데이터 통계 분석 및 예측
+   데이터 사이언스 카테고리에서: 부동산 가격
+   구매자 선호도 파악, 부동산 가격 예측, 부동산 관리
+   온라인 책 추천 (또나옴!)
+   책 관리, 추천, 고객 관리
+
+태림 - 온라인 책 추천 (또또나옴!)
+   레스토랑 예약 앱: 안드로이드
+   와이파이로 도서관 책 장소 검색해서 알려주는 앱
+   criminal investigation tracker with suspect prediction
+
+민주 - 라이브 투표를 통한 공개 사진 콘테스트
+   관리자, 사진 작가, 투표 유저
+   자동화된 성격 분류를 위한 데이터 마이닝
+   엠비티아이 성격 분류같다.. 문제 풀어서 데이터 마이닝으로 자동화
+   의사 결정 트리를 사용한 학생 성적 예측
+   학생들의 공감이 많이 될 거 같아서 재밌어보임
+   cv 분석을 통한 성격 예측 시스템
+   이력서 가지고 성격 예측
+   데이터 마이닝을 이용한 영화 성공 예측(또나옴)
+   학생 정보 챗봇 프로젝트
+
+일단 세 개 정해놓자 -->
+Online Book Recommendation Using Collaborative Filtering
+Movie Success Prediction Using Data Mining Php
+Opinion Mining For Comment Sentiment Analysis
