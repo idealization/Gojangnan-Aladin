@@ -46,13 +46,13 @@
 
 회원 관리 페이지에서는 모든 회원의 정보를 볼 수 있습니다. 각 회원의 등급부터 회원 이름, 아이디, 회원 등급, 구매한 책 목록, 현재 주문 진행 여부, 회원이 남긴 comment 등을 모두 볼 수 있습니다. 회원 등급은 기본적으로 시스템에 의해 자동으로 관리됩니다. 관리자가 조정 가능한 부분은 회원 삭제, 회원 등급, 회원 포인트 조정입니다.
 
-## Form Sub-Groups
+# Form Sub-Groups
 
 Divide work to #3 sub groups based on business goal 
 1) 선택지를 줄일 수 있게 도서를 추천해준다 : 보림, 민주
 2) 빠르고 편한 결제 시스템이 있어야 한다 : 상화, 희민
 3) 서점 기본 시스템 ( 로그인 / 회원가입 / 검색 기능 / 관리자 운영 )  : 다인, 태림
 
-## Software Development Method
+# Software Development Method
 
 ##Waterfall Method
