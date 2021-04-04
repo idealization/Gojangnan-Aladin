@@ -55,4 +55,4 @@ Divide work to #3 sub groups based on business goal
 
 # Software Development Method
 
-##Waterfall Method
+## Waterfall Method
