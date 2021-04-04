@@ -52,3 +52,7 @@ Divide work to #3 sub groups based on business goal
 1) 선택지를 줄일 수 있게 도서를 추천해준다 : 보림, 민주
 2) 빠르고 편한 결제 시스템이 있어야 한다 : 상화, 희민
 3) 서점 기본 시스템 ( 로그인 / 회원가입 / 검색 기능 / 관리자 운영 )  : 다인, 태림
+
+## Software Development Method
+
+##Waterfall Method
