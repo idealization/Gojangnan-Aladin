@@ -10,14 +10,18 @@
 ## Cause
 
 ### #1
+
 **Problem detected** difficult process to pay
+
 **Analysis of the Causes**
  - 단계가 너무 많음
  - 원하는 걸 빨리 찾기 힘듦 (선택지가 너무 많음)
  - 실제 계좌로의 접근이 오래 걸림
  
 ### #2
+
 **Problem detected** 결제 내역 혼동
+
 **Analysis of the Causes**
  - 결제 / 교환 / 환불 표시의 혼동
 
