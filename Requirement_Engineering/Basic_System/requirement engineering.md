@@ -20,6 +20,6 @@ RQ12(F/4) The system should provide new password (with e-mail they entered when 
 ## admin
 RQ13(F/4) The system shall newly generate the account of admin  
 RQ14(F/3) The system shall show, delete, modify the information of users  
-RQ15(F/5) The system should give the permission to administer for modifying the database of book  
+RQ15(F/5) The system should modify the database of book  
 RQ16(F/4) The system shall manage purchase history, delivery state  
 RQ17(F/3) The system shall show the total amount user purchased  
