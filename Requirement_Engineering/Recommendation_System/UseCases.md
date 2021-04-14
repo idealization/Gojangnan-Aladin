@@ -18,8 +18,6 @@ User 		| "To press ""Not interested"" button to remove the book from the recomme
 User 		| To press arrow buttons and get more books to see		| UC-3	| 
 User 		| To press refresh buttons and get new recommended book list		| UC-3	| 
 
-![image](https://user-images.githubusercontent.com/49024958/114645683-e4e43580-9d14-11eb-896b-ffb81535b196.png)
-
 ![image](https://user-images.githubusercontent.com/49024958/114651468-fc282080-9d1e-11eb-85f9-9284f8cc9146.png)
 
 [Untitled](https://www.notion.so/79808553268d49849a49128fb8bd8805)
