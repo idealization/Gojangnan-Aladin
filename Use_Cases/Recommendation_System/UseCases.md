@@ -6,7 +6,7 @@
 
 | Actor |	Actor'sGoal |	Use Case Name |
 |:---|:---:|---:|
-Online Server	| To collect user's history log		| UC-1: History|
+Log Collector	| To collect user's history log		| UC-1: History|
 Recommender		| To recommend books	| 	UC-2: Recommend |
 Recommender		| "To recommend Books viewed by users of the same age and gender, Newest book and MD recommandation book on book board"		| UC-2: Recommend |
 Recommender	| 	"To recommend Best seller books, Newest book and MD recommandation book on book board"		| UC-2 |
