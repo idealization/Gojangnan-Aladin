@@ -9,9 +9,15 @@
 ## Use cases Diagram
 1. Payment Subsystem
 
-2. Cart Subsystem
+   ![UC Diagram1](https://github.com/idealization/software-engineering/blob/main/Use_Cases/Payment_System/image/UC%20Diagram1.png?raw=true)
 
-3. Purchase history Subsystem
+2. Cart page Subsystem
+
+   ![UC Diagram2](https://github.com/idealization/software-engineering/blob/main/Use_Cases/Payment_System/image/UC%20Diagram2.png?raw=true)
+
+3. Purchase history page Subsystem
+
+   ![UC Diagram3](https://github.com/idealization/software-engineering/blob/main/Use_Cases/Payment_System/image/UC%20Diagram3.png?raw=true)
 
 
 ## Use cases Details
