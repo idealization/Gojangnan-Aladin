@@ -12,7 +12,8 @@
 
 # UseCase 3
 
-![image](https://user-images.githubusercontent.com/55435898/114750235-ba36c300-9d8e-11eb-8297-ddc0b5d68896.png)
+![image](https://user-images.githubusercontent.com/55435898/114798902-6dc0a700-9dd1-11eb-865f-50cacb9360cb.png)
+
 
 <hr>
 
