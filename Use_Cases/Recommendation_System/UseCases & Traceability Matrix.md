@@ -17,3 +17,7 @@ Customer 		| To click book image to get detailed information for the book 		| UC
 Customer		| "To press ""Not interested"" button to remove the book from the recommended book list"		| UC-1, UC-2	| 
 Customer 		| To press arrow buttons and get more books to see		| UC-3	| 
 Customer 		| To press refresh buttons and get new recommended book list		| UC-3	| 
+
+# Traceability Matrix
+
+![image](https://user-images.githubusercontent.com/49024958/114809664-905cbb00-9de5-11eb-91d0-8cc5f40fb1ee.png)
