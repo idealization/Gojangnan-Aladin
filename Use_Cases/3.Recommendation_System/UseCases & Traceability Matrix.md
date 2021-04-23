@@ -21,3 +21,8 @@ Customer 		| To press refresh buttons and get new recommended book list		| UC-3	
 # Traceability Matrix
 
 ![image](https://user-images.githubusercontent.com/49024958/114809664-905cbb00-9de5-11eb-91d0-8cc5f40fb1ee.png)
+
+
+# UseCaseDiagram
+
+![UseCaseDiagram(수정2)](https://user-images.githubusercontent.com/55435898/115818013-d4c80680-a436-11eb-9d4e-88c05646bb9c.PNG)
