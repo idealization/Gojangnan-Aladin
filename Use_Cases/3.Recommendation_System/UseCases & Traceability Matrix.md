@@ -13,7 +13,7 @@ Recommender	| 	"To recommend Best seller books, Newest book and MD recommandatio
 Recommender		| To arrange the recommended book list when they have same recommend degree		| UC-2	| 
 Viewer		| To display recommended book		| UC-3: Display |
 Customer 		| To find out book to buy on book board //surf around the displayed books  	| 	UC-4: Browser	| 
-Customer 		| To click book image to get detailed information for the book 		| UC-3	| 
+Customer 		| To click book image to get detailed information for the book 		| UC-4	| 
 Customer		| "To press ""Not interested"" button to remove the book from the recommended book list"		| UC-1, UC-2	| 
 Customer 		| To press arrow buttons and get more books to see		| UC-3	| 
 Customer 		| To press refresh buttons and get new recommended book list		| UC-3	| 
