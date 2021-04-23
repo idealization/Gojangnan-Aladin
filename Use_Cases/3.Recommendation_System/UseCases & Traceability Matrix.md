@@ -25,4 +25,5 @@ Customer 		| To press refresh buttons and get new recommended book list		| UC-3	
 
 # UseCaseDiagram
 
-![UseCaseDiagram(수정2)](https://user-images.githubusercontent.com/55435898/115818013-d4c80680-a436-11eb-9d4e-88c05646bb9c.PNG)
+![UseCaseDiagram최종](https://user-images.githubusercontent.com/55435898/115821559-fb3d7000-a43d-11eb-87b3-70bb2d58c10b.PNG)
+
