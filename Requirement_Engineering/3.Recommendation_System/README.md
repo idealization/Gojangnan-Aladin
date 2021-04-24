@@ -60,7 +60,7 @@ REQ-3(FR/4): The system shall show the recommandation page, which displays books
 
 REQ-4(NFR/2): The system shall maintain the user's history log of all attempted accesses for recommandation.
 
-REQ-3(FR/3,4): The system shall update the displaying recommanded books every second, when the page is refreshed. 
+REQ-5(FR/3,4): The system shall update the displaying recommanded books every second, when the page is refreshed. 
 
 REQ-6(FR/2,3): The system should display books based on Newest book, MD recommandation book, and books viewed by users of the same age and gender to authorized user when the user's history is lack.
 
