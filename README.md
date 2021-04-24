@@ -81,12 +81,28 @@ Divide work to #3 sub groups based on business goal
 #### Traceability Matrix
 
 ### Sub Group 2: Payment System
+![Use case type](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/Use%20case%20type.jpg)
+![Use Cases_after_CustomerChallenge](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/Use%20Cases_after_CustomerChallenge.PNG)
 
 #### Use Case Diagram
 
+1. Payment Subsystem
+![UC Diagram1-1](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC%20Diagram1-1.png)
+2. Cart page Subsystem
+![UC Diagram2-1](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC%20Diagram2-1.png)
+3. Purchase history page Subsystem
+![UC Diagram3-1](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC%20Diagram3-1.png)
+
 #### Use Case Details
+![UC-1](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC-1.png)
+![UC-2](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC-2.png)
+![UC-3](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC-3.png)
+![UC-4_after_CustomerChallenge](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC-4_after_CustomerChallenge.jpg)
+![UC-5_after_CustomerChallenge](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC-5_after_CustomerChallenge.jpg)
+![UC-6_after_CustomerChallenge](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC-6_after_CustomerChallenge.jpg)
 
 #### Traceability Matrix
+![Traceability_Matrix](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/Traceability_Matrix.png)
 
 ### Sub Group 3: Recommendation System
 
