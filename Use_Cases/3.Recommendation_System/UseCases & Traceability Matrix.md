@@ -14,13 +14,23 @@ Recommender		| To arrange the recommended book list when they have same recommen
 Viewer		| To display recommended book		| UC-3: Display |
 Customer 		| To find out book to buy on book board //surf around the displayed books  	| 	UC-4: Browser	| 
 Customer 		| To click book image to get detailed information for the book 		| UC-4	| 
-Customer		| "To press ""Not interested"" button to remove the book from the recommended book list"		| UC-1, UC-2	| 
 Customer 		| To press arrow buttons and get more books to see		| UC-3	| 
 Customer 		| To press refresh buttons and get new recommended book list		| UC-3	| 
 
 # Traceability Matrix
 
-![image](https://user-images.githubusercontent.com/49024958/114809664-905cbb00-9de5-11eb-91d0-8cc5f40fb1ee.png)
+|:---|:---:|---:|
+Traceability Matrix					|
+Req't	|PW	|UC1	|UC2	|UC3	|UC4|
+REQ1	|5|	X|	X|	|	|
+REQ2	|1|	|	X|	X|	|
+REQ3	|4|X|	|	X|	|
+REQ4	|2|	X| |	|	|X|
+REQ5	|4|	X|	X|	X|	|
+REQ6	|3|	X	|X| |	|
+REQ7	|3|	X|	X|	|	|
+Max 	|PW| 5	|5	|4|	2|
+Total |	PW|	21|	16|	9|	2|
 
 
 # UseCaseDiagram
