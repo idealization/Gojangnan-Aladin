@@ -64,6 +64,7 @@ Divide work to #3 sub groups based on business goal
 ### Sub Group 1: Basic System
 
 ### Sub Group 2: Payment System
+![SubGroup2_IEEE-830](./Requirement_Engineering/2.Payment_System/image/IEEE-830_after_CustomerChallenge.png)
 
 ### Sub Group 3: Recommendation System
 
@@ -138,5 +139,20 @@ Divide work to #3 sub groups based on business goal
 ### Sub Group 1: Basic System
 
 ### Sub Group 2: Payment System
+
+1. 장바구니 페이지
+![장바구니페이지](./Requirement_Engineering/2.Payment_System/image/장바구니 페이지.png)
+![주문과정1](./Requirement_Engineering/2.Payment_System/image/주문과정1.png)
+![주문과정2](./Requirement_Engineering/2.Payment_System/image/주문과정2.png)
+2. 주문 과정
+3. 결제 성공 / 실패 페이지
+- 결제 성공
+![결제성공페이지](./Requirement_Engineering/2.Payment_System/image/결제 성공 페이지.png)
+- 결제 실패
+![결제실패페이지](./Requirement_Engineering/2.Payment_System/image/결제 실패 페이지.png)
+4. 주문 및 배송 조회 페이지
+![주문및배송조회페이지](./Requirement_Engineering/2.Payment_System/image/주문 및 배송 조회 페이지.png)
+5. 결제 취소 팝업창
+![결제취소팝업창](./Requirement_Engineering/2.Payment_System/image/결제 취소 팝업창.png)
 
 ### Sub Group 3: Recommendation System
