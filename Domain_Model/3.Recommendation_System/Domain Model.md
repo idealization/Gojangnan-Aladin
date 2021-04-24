@@ -29,7 +29,7 @@
 
 <hr>
 
-## Borwser (UC-4)
+## Browser (UC-4)
 
 ![image](https://user-images.githubusercontent.com/55435898/115954746-a0834180-a52d-11eb-90ba-d6bd794a6a75.png)
 
