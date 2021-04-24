@@ -81,6 +81,7 @@ Divide work to #3 sub groups based on business goal
 #### Traceability Matrix
 
 ### Sub Group 2: Payment System
+
 ![Use case type](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/Use%20case%20type.jpg)
 ![Use Cases_after_CustomerChallenge](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/Use%20Cases_after_CustomerChallenge.PNG)
 
@@ -116,11 +117,23 @@ Divide work to #3 sub groups based on business goal
 
 ### Sub Group 1: Basic System
 
-#### Domain model for UC-?
+#### Domain model for UC-?:
+
+- Extracting the Responsibilities
+
+- Extracting the Associations
+
+- Extracting the Attributes
 
 #### Diagram
 
-#### Domain model for UC-?
+#### Domain model for UC-?:
+
+- Extracting the Responsibilities
+
+- Extracting the Associations
+
+- Extracting the Attributes
 
 #### Diagram
 
@@ -128,23 +141,100 @@ Divide work to #3 sub groups based on business goal
 
 ### Sub Group 2: Payment System
 
-#### Domain model for UC-?
+#### Domain model for UC-1: Prepare Payment
+
+- Extracting the Responsibilities
+![Domain1-1](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain1.png)
+- Extracting the Associations
+![Domain1-2](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain2.png)
+- Extracting the Attributes
+![Domain1-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain3.png)
 
 #### Diagram
+![Diagram1](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram1.jpg)
 
-#### Domain model for UC-?
+#### Domain model for UC-2: Payment Process
+
+- Extracting the Responsibilities
+![Domain2-1](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain4.png)
+- Extracting the Associations
+![Domain2-2](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain5.png)
+- Extracting the Attributes
+![Domain2-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain6.png)
 
 #### Diagram
+![Diagram2](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram2.jpg)
+
+#### Domain model for UC-3: Cart
+
+- Extracting the Responsibilities
+![Domain3-1](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain7.png)
+- Extracting the Associations
+![Domain3-2](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain8.png)
+- Extracting the Attributes
+![Domain3-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain9.png)
+
+#### Diagram
+![Diagram3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram3.jpg)
+
+#### Domain model for UC-4: Manage Purchase history and state
+
+- Extracting the Responsibilities
+![Domain4-1](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain10.png)
+- Extracting the Associations
+![Domain4-2](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain11.png)
+- Extracting the Attributes
+![Domain4-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain12.png)
+
+#### Diagram
+![Diagram4](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram4.jpg)
+
+#### Domain model for UC-5: Manage Point
+
+- Extracting the Responsibilities
+![Domain5-1](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain13.png)
+- Extracting the Associations
+![Domain5-2](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain14.png)
+- Extracting the Attributes
+![Domain5-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain15.png)
+
+#### Diagram
+![Diagram5](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram5.jpg)
+
+#### Domain model for UC-6: Confirm Expenditure
+
+- Extracting the Responsibilities
+![Domain6-1](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain16.png)
+- Extracting the Associations
+![Domain6-2](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain17.png)
+- Extracting the Attributes
+![Domain6-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain18.png)
+
+#### Diagram
+![Diagram6](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram6.jpg)
 
 #### Traceability Matrix
+![Traceability_Matrix_Domain](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Traceability_Matrix.png)
 
 ### Sub Group 3: Recommendation System
 
-#### Domain model for UC-?
+#### Domain model for UC-?:
+
+- Extracting the Responsibilities
+
+- Extracting the Associations
+
+- Extracting the Attributes
 
 #### Diagram
 
-#### Domain model for UC-?
+#### Domain model for UC-?:
+
+- Extracting the Responsibilities
+
+- Extracting the Associations
+
+- Extracting the Attributes
 
 #### Diagram
 
