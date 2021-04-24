@@ -11,7 +11,7 @@ Recommender		| To recommend books	| 	UC-2: Recommend |
 Recommender		| "To recommend Books viewed by users of the same age and gender, Newest book and MD recommandation book on book board"		| UC-1, UC-2 |
 Recommender	| 	"To recommend Best seller books, Newest book and MD recommandation book on book board"		| UC-2 |
 Recommender		| To arrange the recommended book list when they have same recommend degree		| UC-2	| 
-Viewer		| To display recommended book		| UC-3: Display |
+Customer		| To display recommended book		| UC-3: Display |
 Customer 		| To find out book to buy on book board //surf around the displayed books  	| 	UC-4: Browser	| 
 Customer 		| To click book image to get detailed information for the book 		| UC-4	| 
 Customer 		| To press arrow buttons and get more books to see		| UC-3	| 
@@ -37,5 +37,5 @@ Total |	PW|	21|	16|	9|	2|
 
 # UseCaseDiagram
 
-![UseCaseDiagram최종](https://user-images.githubusercontent.com/55435898/115821559-fb3d7000-a43d-11eb-87b3-70bb2d58c10b.PNG)
+![image](https://user-images.githubusercontent.com/55435898/115953851-d83bba80-a528-11eb-9740-24cde0359b0b.png)
 
