@@ -7,6 +7,8 @@
 ![Domain2](./img/Domain2.png)
 ## Extracting the Attributes
 ![Domain3](./img/Domain3.png)
+## Diagram
+![Diagram1](./img/Diagram1.png)
 
 # UC-2: Payment Process
 ## Extracting the Responsibilities
@@ -15,6 +17,8 @@
 ![Domain5](./img/Domain5.png)
 ## Extracting the Attributes
 ![Domain6](./img/Domain6.png)
+## Diagram
+![Diagram2](./img/Diagram2.png)
 
 # UC-3: Cart
 ## Extracting the Responsibilities
@@ -23,6 +27,8 @@
 ![Domain8](./img/Domain8.png)
 ## Extracting the Attributes
 ![Domain9](./img/Domain9.png)
+## Diagram
+![Diagram3](./img/Diagram3.png)
 
 # UC-4: Manage Purchase history and state
 ## Extracting the Responsibilities
@@ -31,6 +37,8 @@
 ![Domain11](./img/Domain11.png)
 ## Extracting the Attributes
 ![Domain12](./img/Domain12.png)
+## Diagram
+![Diagram4](./img/Diagram4.png)
 
 # UC-5: Manage Point
 ## Extracting the Responsibilities
@@ -39,6 +47,8 @@
 ![Domain14](./img/Domain14.png)
 ## Extracting the Attributes
 ![Domain15](./img/Domain15.png)
+## Diagram
+![Diagram5](./img/Diagram5.png)
 
 # UC-6: Confirm Expenditure
 ## Extracting the Responsibilities
@@ -47,3 +57,5 @@
 ![Domain17](./img/Domain17.png)
 ## Extracting the Attributes
 ![Domain18](./img/Domain18.png)
+## Diagram
+![Diagram6](./img/Diagram6.png)
