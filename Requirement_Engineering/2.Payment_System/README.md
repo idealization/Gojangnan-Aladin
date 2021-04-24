@@ -1,32 +1,43 @@
-# Payment System 구현
+# Requirement Engineering
 
-## 개발 파트
-1. 장바구니 시스템 및 페이지
-2. 결제 시스템
-3. 결제 완료/실패 페이지
-4. 환불 시스템
-5. 배송/결제 내역 페이지 (회원 페이지)
-6. 포인트 관리
+## IEEE-830
 
-## Cause
-
-### #1
-
-**Problem detected** difficult process to pay
-
-**Analysis of the Causes**
- - 단계가 너무 많음
- - 원하는 걸 빨리 찾기 힘듦 (선택지가 너무 많음)
- - 실제 계좌로의 접근이 오래 걸림
-
-### #2
-
-**Problem detected** 결제 내역 혼동
-
-**Analysis of the Causes**
- - 결제 / 교환 / 환불 표시의 혼동
+![IEEE-830_after_CustomerChallenge](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/IEEE-830_after_CustomerChallenge.png?raw=true)
 
 
-## Solutions constraints
-- 가맹비, 연회비, 결제수수료 등 결제 시스템에 운용 가능한 경비
-- 결제 적용 범위 : 웹과 모바일 모두 적용되어야 하는가
+
+## UI Sketch
+
+### 1. 장바구니 페이지
+
+![장바구니페이지](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88%20%ED%8E%98%EC%9D%B4%EC%A7%80.PNG?raw=true)
+
+
+
+### 2. 주문과정
+
+![주문과정1](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EC%A3%BC%EB%AC%B8%EA%B3%BC%EC%A0%951.PNG?raw=true)
+
+![주문과정2](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EC%A3%BC%EB%AC%B8%EA%B3%BC%EC%A0%952.PNG?raw=true)
+
+### 3. 결제 성공/실패 페이지
+
+* 결제 성공
+
+  ![결제성공](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EA%B2%B0%EC%A0%9C%20%EC%84%B1%EA%B3%B5%20%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true)
+
+
+
+* 결제 실패
+
+  ![결제실패](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EA%B2%B0%EC%A0%9C%20%EC%8B%A4%ED%8C%A8%20%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true)
+
+### 4. 주문/배송 조회 페이지
+
+![주문및배송조회페이지](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EC%A3%BC%EB%AC%B8%20%EB%B0%8F%20%EB%B0%B0%EC%86%A1%20%EC%A1%B0%ED%9A%8C%20%ED%8E%98%EC%9D%B4%EC%A7%80_After_CustomerChallenge.PNG?raw=true)
+
+
+
+### 5. 결제 취소 팝업창
+
+![결제취소](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EA%B2%B0%EC%A0%9C%20%EC%B7%A8%EC%86%8C%20%ED%8C%9D%EC%97%85%EC%B0%BD.png?raw=true)
