@@ -19,18 +19,20 @@ Customer 		| To press refresh buttons and get new recommended book list		| UC-3	
 
 # Traceability Matrix
 
-|:---|:---:|---:|
-|Traceability Matrix					|
+
+-Traceability Matrix
+
 |Req't	|PW	|UC1	|UC2	|UC3	|UC4|
-|REQ1	|5|	X|	X|	|	|
-|REQ2	|1|	|	X|	X|	|
-|REQ3	|4|X|	|	X|	|
-|REQ4	|2|	X| |	|	|X|
-|REQ5	|4|	X|	X|	X|	|
-|REQ6	|3|	X	|X| |	|
-|REQ7	|3|	X|	X|	|	|
-|Max 	|PW| 5	|5	|4|	2|
-|Total |	PW|	21|	16|	9|	2|
+|:---|:---:|:---:|:---:|:---:|---:|
+#REQ1	|5|	X|	X|	|	|
+REQ2	|1|	|	X|	X|	|
+REQ3	|4|X|	|	X|	|
+REQ4	|2|	X| |	|	X|
+REQ5	|4|	X|	X|	X|	|
+REQ6	|3|	X	|X| |	|
+REQ7	|3|	X|	X|	|	|
+Max 	|PW| 5	|5	|4|	2|
+Total |	PW|	21|	16|	9|	2|
 
 
 # UseCaseDiagram
