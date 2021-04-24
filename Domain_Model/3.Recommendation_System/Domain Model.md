@@ -15,7 +15,7 @@
 
 ![image](https://user-images.githubusercontent.com/49024958/115957011-00ccb000-a53b-11eb-9e28-4602f16299c3.png)
 
-![image](https://user-images.githubusercontent.com/49024958/115955707-3077ba00-a533-11eb-9cc8-30d965a9d5d0.png)
+![image](https://user-images.githubusercontent.com/49024958/115957415-4db18600-a53d-11eb-9c30-da0c1806508e.png)
 
 ![KakaoTalk_20210424_190803831](https://user-images.githubusercontent.com/49024958/115955402-29e84300-a531-11eb-9bd7-660979924b27.jpg)
 <hr>
