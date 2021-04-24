@@ -88,10 +88,15 @@ Divide work to #3 sub groups based on business goal
 #### Use Case Diagram
 
 1. Payment Subsystem
+
 ![UC Diagram1-1](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC%20Diagram1-1.png)
+
 2. Cart page Subsystem
+
 ![UC Diagram2-1](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC%20Diagram2-1.png)
+
 3. Purchase history page Subsystem
+
 ![UC Diagram3-1](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC%20Diagram3-1.png)
 
 #### Use Case Details
@@ -187,7 +192,7 @@ Divide work to #3 sub groups based on business goal
 ![Domain4-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain12.png)
 
 #### Diagram
-![Diagram4](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram4.jpg)
+![Diagram4](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram4.png)
 
 #### Domain model for UC-5: Manage Point
 
@@ -199,7 +204,7 @@ Divide work to #3 sub groups based on business goal
 ![Domain5-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain15.png)
 
 #### Diagram
-![Diagram5](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram5.jpg)
+![Diagram5](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram5.png)
 
 #### Domain model for UC-6: Confirm Expenditure
 
@@ -211,7 +216,7 @@ Divide work to #3 sub groups based on business goal
 ![Domain6-3](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Domain18.png)
 
 #### Diagram
-![Diagram6](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram6.jpg)
+![Diagram6](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Diagram6.png)
 
 #### Traceability Matrix
 ![Traceability_Matrix_Domain](https://github.com/idealization/software-engineering/blob/main/Domain_Model/2.Payment_System/img/Traceability_Matrix.png)
