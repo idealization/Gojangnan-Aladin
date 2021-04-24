@@ -144,11 +144,11 @@ Divide work to #3 sub groups based on business goal
 
 ![장바구니 페이지](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88%20%ED%8E%98%EC%9D%B4%EC%A7%80.PNG)
 
+2. 주문 과정
+
 ![주문과정1](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EC%A3%BC%EB%AC%B8%EA%B3%BC%EC%A0%951.PNG)
 
 ![주문과정2](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EC%A3%BC%EB%AC%B8%EA%B3%BC%EC%A0%952.PNG)
-
-2. 주문 과정
 
 3. 결제 성공 / 실패 페이지
 
