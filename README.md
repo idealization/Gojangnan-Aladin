@@ -77,17 +77,23 @@ Divide work to #3 sub groups based on business goal
 
 #### Use Case Details
 
+#### Traceability Matrix
+
 ### Sub Group 2: Payment System
 
 #### Use Case Diagram
 
 #### Use Case Details
 
+#### Traceability Matrix
+
 ### Sub Group 3: Recommendation System
 
 #### Use Case Diagram
 
 #### Use Case Details
+
+#### Traceability Matrix
 
 ## Domain model
 
@@ -101,6 +107,8 @@ Divide work to #3 sub groups based on business goal
 
 #### Diagram
 
+#### Traceability Matrix
+
 ### Sub Group 2: Payment System
 
 #### Domain model for UC-?
@@ -111,6 +119,8 @@ Divide work to #3 sub groups based on business goal
 
 #### Diagram
 
+#### Traceability Matrix
+
 ### Sub Group 3: Recommendation System
 
 #### Domain model for UC-?
@@ -120,6 +130,8 @@ Divide work to #3 sub groups based on business goal
 #### Domain model for UC-?
 
 #### Diagram
+
+#### Traceability Matrix
 
 ## User Interface mockups
 
