@@ -56,3 +56,75 @@ Divide work to #3 sub groups based on business goal
 # Software Development Method
 
 ## Waterfall Method
+
+# Gathered Requirements
+
+## IEEE-830
+
+### Sub Group 1: Basic System
+
+### Sub Group 2: Payment System
+
+### Sub Group 3: Recommendation System
+
+# System Model
+
+## Use Case model
+
+### Sub Group 1: Basic System
+
+**Use Case Diagram**
+
+**Use Case Details**
+
+### Sub Group 2: Payment System
+
+**Use Case Diagram**
+
+**Use Case Details**
+
+### Sub Group 3: Recommendation System
+
+**Use Case Diagram**
+
+**Use Case Details**
+
+## Domain model
+
+### Sub Group 1: Basic System
+
+**Domain model for UC-?**
+
+**Diagram**
+
+**Domain model for UC-?**
+
+**Diagram**
+
+### Sub Group 2: Payment System
+
+**Domain model for UC-?**
+
+**Diagram**
+
+**Domain model for UC-?**
+
+**Diagram**
+
+### Sub Group 3: Recommendation System
+
+**Domain model for UC-?**
+
+**Diagram**
+
+**Domain model for UC-?**
+
+**Diagram**
+
+## User Interface mockups
+
+### Sub Group 1: Basic System
+
+### Sub Group 2: Payment System
+
+### Sub Group 3: Recommendation System
