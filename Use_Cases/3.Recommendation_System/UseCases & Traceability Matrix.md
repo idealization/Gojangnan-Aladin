@@ -8,12 +8,12 @@
 |:---|:---:|---:|
 Log Collector	| To collect user's history log		| UC-1: History|
 Recommender		| To recommend books	| 	UC-2: Recommend |
-Recommender		| "To recommend Books viewed by users of the same age and gender, Newest book and MD recommandation book on book board"		| UC-1, UC-2 |
-Recommender	| 	"To recommend Best seller books, Newest book and MD recommandation book on book board"		| UC-2 |
+Recommender		| To recommend Books viewed by users of the same age and gender, Newest book and MD recommandation book on book board (Situations where the algorithm cannot be used)		| UC-1, UC-2 |
+Recommender	| 	To recommend Best seller books, Newest book and MD recommandation book on book board		| UC-2 |
 Recommender		| To arrange the recommended book list when they have same recommend degree		| UC-2	| 
 Customer		| To display recommended book		| UC-3: Display |
-Customer 		| To find out book to buy on book board //surf around the displayed books  	| 	UC-4: Browser	| 
-Customer 		| To click book image to get detailed information for the book 		| UC-4	| 
+Customer 		| To browse books to buy on book board //surf around the displayed books  	| 	UC-4: Browser	| 
+Customer 		| To click book image to get detailed information about the book 		| UC-4	| 
 Customer 		| To press arrow buttons and get more books to see		| UC-3	| 
 Customer 		| To press refresh buttons and get new recommended book list		| UC-3	| 
 
@@ -37,5 +37,5 @@ Total |	PW|	21|	16|	9|	2|
 
 # UseCaseDiagram
 
-![image](https://user-images.githubusercontent.com/55435898/115953851-d83bba80-a528-11eb-9740-24cde0359b0b.png)
+![image](https://user-images.githubusercontent.com/55435898/115955404-2a80d980-a531-11eb-9b88-2d83037b719d.png)
 
