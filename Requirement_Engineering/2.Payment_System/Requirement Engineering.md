@@ -3,7 +3,7 @@
 ## IEEE - 830
 
 
-![IEEE-830_of_Subgroup2](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/Payment_System/image/IEEE-830.png?raw=true)
+![IEEE-830_of_Subgroup2](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/IEEE-830.png?raw=true)
 
 
 
