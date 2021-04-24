@@ -1,12 +1,13 @@
 # UseCase 1
 
-![image](https://user-images.githubusercontent.com/49024958/114809060-6a82e680-9de4-11eb-94d2-15139afd4523.png)
+![image](https://user-images.githubusercontent.com/49024958/115952520-601dc680-a521-11eb-8791-e148d9f2ca03.png)
 
 <hr>
 
 # UseCase2
 
-![image](https://user-images.githubusercontent.com/49024958/114809210-ba61ad80-9de4-11eb-8f88-b3de2898b6ee.png)
+![image](https://user-images.githubusercontent.com/49024958/115952634-11246100-a522-11eb-85f8-cde3f189a3ff.png)
+
 
 <hr>
 
