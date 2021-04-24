@@ -13,12 +13,12 @@
 
 # UseCase 3
 
-![image](https://user-images.githubusercontent.com/55435898/115952839-51381380-a523-11eb-944b-ea2de701834a.png)
+![image](https://user-images.githubusercontent.com/55435898/115953512-e2f55000-a526-11eb-9aff-e084ae38a55d.png)
 
 
 <hr>
 
 # UseCase 4
 
-![image](https://user-images.githubusercontent.com/55435898/115952842-5bf2a880-a523-11eb-93b7-2cde852e3a05.png)
+![image](https://user-images.githubusercontent.com/55435898/115953538-0f10d100-a527-11eb-9377-fe3fa1423943.png)
 
