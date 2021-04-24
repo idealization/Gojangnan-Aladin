@@ -73,53 +73,53 @@ Divide work to #3 sub groups based on business goal
 
 ### Sub Group 1: Basic System
 
-**Use Case Diagram**
+#### Use Case Diagram
 
-**Use Case Details**
+#### Use Case Details
 
 ### Sub Group 2: Payment System
 
-**Use Case Diagram**
+#### Use Case Diagram
 
-**Use Case Details**
+#### Use Case Details
 
 ### Sub Group 3: Recommendation System
 
-**Use Case Diagram**
+#### Use Case Diagram
 
-**Use Case Details**
+#### Use Case Details
 
 ## Domain model
 
 ### Sub Group 1: Basic System
 
-**Domain model for UC-?**
+#### Domain model for UC-?
 
-**Diagram**
+#### Diagram
 
-**Domain model for UC-?**
+#### Domain model for UC-?
 
-**Diagram**
+#### Diagram
 
 ### Sub Group 2: Payment System
 
-**Domain model for UC-?**
+#### Domain model for UC-?
 
-**Diagram**
+#### Diagram
 
-**Domain model for UC-?**
+#### Domain model for UC-?
 
-**Diagram**
+#### Diagram
 
 ### Sub Group 3: Recommendation System
 
-**Domain model for UC-?**
+#### Domain model for UC-?
 
-**Diagram**
+#### Diagram
 
-**Domain model for UC-?**
+#### Domain model for UC-?
 
-**Diagram**
+#### Diagram
 
 ## User Interface mockups
 
