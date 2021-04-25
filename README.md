@@ -115,6 +115,7 @@ RQ17(F/3) The system shall show the total amount user purchased
 ![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail2.png)
 
 **3. UC 3**
+
 ![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail3.png)
 
 **4. UC 4**
@@ -388,12 +389,15 @@ Total |	PW|	21|	16|	9|	2|21|
 #### Domain model for UC-3:
 
 - Extracting the Responsibilities
+
 ![image](https://user-images.githubusercontent.com/55435898/115983305-5eb0d480-a5db-11eb-86f1-010ef907545e.png)
 
 - Extracting the Associations
+
 ![image](https://user-images.githubusercontent.com/55435898/115983322-6e301d80-a5db-11eb-9150-6f48431a2c8f.png)
 
 - Extracting the Attributes
+
 ![image](https://user-images.githubusercontent.com/55435898/115983340-8142ed80-a5db-11eb-85fc-5f293ca5a222.png)
 
 #### Diagram
@@ -402,12 +406,15 @@ Total |	PW|	21|	16|	9|	2|21|
 #### Domain model for UC-4:
 
 - Extracting the Responsibilities
+
 ![image](https://user-images.githubusercontent.com/55435898/115983703-bf411100-a5dd-11eb-8afd-d7e26584e301.png)
 
 - Extracting the Associations
+
 ![image](https://user-images.githubusercontent.com/55435898/115983389-bc452100-a5db-11eb-928d-88dc42959c13.png)
 
 - Extracting the Attributes
+
 ![image](https://user-images.githubusercontent.com/55435898/115983394-c404c580-a5db-11eb-92a6-55d41e758e15.png)
 
 #### Diagram
