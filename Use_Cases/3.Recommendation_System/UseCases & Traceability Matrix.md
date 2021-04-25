@@ -37,5 +37,5 @@ Total |	PW|	21|	16|	9|	2|
 
 # UseCaseDiagram
 
-![image](https://user-images.githubusercontent.com/55435898/115955404-2a80d980-a531-11eb-9b88-2d83037b719d.png)
+![image](https://user-images.githubusercontent.com/55435898/115983172-99663d00-a5da-11eb-9616-6d48a2fa3aa3.png)
 
