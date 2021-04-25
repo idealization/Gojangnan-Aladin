@@ -193,7 +193,17 @@ RQ17(F/3) The system shall show the total amount user purchased
 ![image](https://user-images.githubusercontent.com/55435898/115983465-26f65c80-a5dc-11eb-8a4d-f67ada2d1e22.png)
 
 #### Traceability Matrix
-![image](https://user-images.githubusercontent.com/55435898/115983569-ed722100-a5dc-11eb-8d07-a7e6802bb1a5.png)
+|Req't	|PW	|UC1	|UC2	|UC3	|UC4| (Basic System)UC1 |
+|:---|:---:|:---:|:---:|:---:|:---:|---:|
+REQ1	|5|	X|	X|	|	|X|
+REQ2	|1|	|	X|	X|	| |
+REQ3	|4|X|	|	X|	|X|
+REQ4	|2|	X| |	|	X|X|
+REQ5	|4|	X|	X|	X|	|X|
+REQ6	|3|	X	|X| |	|X|
+REQ7	|3|	X|	X|	|	|X|
+Max 	|PW| 5	|5	|4|	2|5|
+Total |	PW|	21|	16|	9|	2|21|
 
 ## Domain model
 
@@ -404,17 +414,8 @@ RQ17(F/3) The system shall show the total amount user purchased
 ![image](https://user-images.githubusercontent.com/55435898/115983401-cf57f100-a5db-11eb-8860-b625fd566356.png)
 
 #### Traceability Matrix
-|Req't	|PW	|UC1	|UC2	|UC3	|UC4| (Basic System)UC1 |
-|:---|:---:|:---:|:---:|:---:|:---:|---:|
-REQ1	|5|	X|	X|	|	|X|
-REQ2	|1|	|	X|	X|	| |
-REQ3	|4|X|	|	X|	|X|
-REQ4	|2|	X| |	|	X|X|
-REQ5	|4|	X|	X|	X|	|X|
-REQ6	|3|	X	|X| |	|X|
-REQ7	|3|	X|	X|	|	|X|
-Max 	|PW| 5	|5	|4|	2|5|
-Total |	PW|	21|	16|	9|	2|21|
+![image](https://user-images.githubusercontent.com/49024958/115956235-a7628200-a536-11eb-8778-9e5374fa88bd.png)
+
 ## User Interface mockups
 
 ### Sub Group 1: Basic System
