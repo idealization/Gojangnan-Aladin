@@ -177,7 +177,7 @@ RQ17(F/3) The system shall show the total amount user purchased
 
 #### Use Case Diagram
 
-![image](https://user-images.githubusercontent.com/55435898/115983172-99663d00-a5da-11eb-9616-6d48a2fa3aa3.png)
+![image](https://user-images.githubusercontent.com/55435898/115995653-144d4900-a617-11eb-88c8-343058c21c98.png)
 
 #### Use Case Details
 * UC - 1 <br>
