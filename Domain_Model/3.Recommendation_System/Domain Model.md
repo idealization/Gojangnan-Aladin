@@ -1,21 +1,20 @@
 ## History (UC-1)
-![image](https://user-images.githubusercontent.com/49024958/115955651-d971e500-a532-11eb-86ad-4287c693c5af.png)
+![image](https://user-images.githubusercontent.com/49024958/115983405-d848c280-a5db-11eb-8d0a-2f50f18a8323.png)
 
-![image](https://user-images.githubusercontent.com/49024958/115955683-01614880-a533-11eb-85bb-aab7422082a0.png)
+![image](https://user-images.githubusercontent.com/49024958/115983376-af283200-a5db-11eb-910d-8dd6b0cde184.png)
 
-![image](https://user-images.githubusercontent.com/49024958/115955692-150caf00-a533-11eb-8358-2844111b8d50.png)
+![image](https://user-images.githubusercontent.com/49024958/115983325-70927780-a5db-11eb-8770-58b865f3c16b.png)
 
 ![KakaoTalk_20210424_190749529](https://user-images.githubusercontent.com/49024958/115955398-25bc2580-a531-11eb-8864-eb16e7bf0a44.jpg)
 
 <hr>
 
 ## Recommend (UC-2)
+![image](https://user-images.githubusercontent.com/49024958/115983561-dc291480-a5dc-11eb-887b-45de2b56efcc.png)
 
-![image](https://user-images.githubusercontent.com/49024958/115957318-9157c000-a53c-11eb-9fee-c996b5f1f55f.png)
+![image](https://user-images.githubusercontent.com/49024958/115983513-78065080-a5dc-11eb-8010-5c17ddf2957c.png)
 
-![image](https://user-images.githubusercontent.com/49024958/115957011-00ccb000-a53b-11eb-9e28-4602f16299c3.png)
-
-![image](https://user-images.githubusercontent.com/49024958/115957415-4db18600-a53d-11eb-9c30-da0c1806508e.png)
+![image](https://user-images.githubusercontent.com/49024958/115983292-4a6cd780-a5db-11eb-8b60-440af8d01c9d.png)
 
 ![KakaoTalk_20210424_190803831](https://user-images.githubusercontent.com/49024958/115955402-29e84300-a531-11eb-9bd7-660979924b27.jpg)
 <hr>
