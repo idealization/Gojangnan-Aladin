@@ -121,10 +121,13 @@ Divide work to #3 sub groups based on business goal
 #### Use Case Details
 * UC - 1 <br>
 ![image](https://user-images.githubusercontent.com/49024958/115984086-2a8be280-a5e0-11eb-893a-324035f74736.png)
+
 * UC - 2 <br>
 ![image](https://user-images.githubusercontent.com/49024958/115984092-3e374900-a5e0-11eb-836e-2772d75a33d4.png)
+
 * UC-3 <br>
 ![image](https://user-images.githubusercontent.com/55435898/115983454-1d6cf480-a5dc-11eb-9225-9a445e620a8b.png)
+
 * UC-4 <br>
 ![image](https://user-images.githubusercontent.com/55435898/115983465-26f65c80-a5dc-11eb-8a4d-f67ada2d1e22.png)
 
@@ -256,6 +259,7 @@ Divide work to #3 sub groups based on business goal
 ![image](https://user-images.githubusercontent.com/49024958/115983292-4a6cd780-a5db-11eb-8b60-440af8d01c9d.png)
 #### Diagram
 ![image](https://user-images.githubusercontent.com/49024958/115955402-29e84300-a531-11eb-9bd7-660979924b27.jpg)
+
 #### Domain model for UC-3:
 
 - Extracting the Responsibilities
