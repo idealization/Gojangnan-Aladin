@@ -325,3 +325,7 @@ Divide work to #3 sub groups based on business goal
 ![결제 취소 팝업창](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/2.Payment_System/image/%EA%B2%B0%EC%A0%9C%20%EC%B7%A8%EC%86%8C%20%ED%8C%9D%EC%97%85%EC%B0%BD.png)
 
 ### Sub Group 3: Recommendation System
+
+[Main page 북보드]
+![image](https://user-images.githubusercontent.com/49024958/115984504-57d99000-a5e2-11eb-901a-bc65f89eae66.png)
+
