@@ -25,16 +25,17 @@ Customer 		| To press refresh buttons and get new recommended book list		| UC-3	
 |Req't	|PW	|UC1	|UC2	|UC3	|UC4| (Basic System)UC1 |
 |:---|:---:|:---:|:---:|:---:|:---:|---:|
 REQ1	|5|	X|	X|	|	|X|
-REQ2	|1|	|	X|	X|	|X|
+REQ2	|1|	|	X|	X|	| |
 REQ3	|4|X|	|	X|	|X|
 REQ4	|2|	X| |	|	X|X|
 REQ5	|4|	X|	X|	X|	|X|
 REQ6	|3|	X	|X| |	|X|
 REQ7	|3|	X|	X|	|	|X|
 Max 	|PW| 5	|5	|4|	2|5|
-Total |	PW|	21|	16|	9|	2|22|
+Total |	PW|	21|	16|	9|	2|21|
 
 
 # UseCaseDiagram
-![image](https://user-images.githubusercontent.com/55435898/115995707-46f74180-a617-11eb-9e27-759be90016d0.png)
+
+![image](https://user-images.githubusercontent.com/55435898/115983172-99663d00-a5da-11eb-9616-6d48a2fa3aa3.png)
 
