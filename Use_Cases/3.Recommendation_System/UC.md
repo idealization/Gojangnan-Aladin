@@ -1,7 +1,6 @@
 # UseCase 1
 
-![image](https://user-images.githubusercontent.com/49024958/115984086-2a8be280-a5e0-11eb-893a-324035f74736.png)
-
+![image](https://user-images.githubusercontent.com/49024958/115995685-4068ca00-a617-11eb-8023-c2120c7d3342.png)
 <hr>
 
 # UseCase2
