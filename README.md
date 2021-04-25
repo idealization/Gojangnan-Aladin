@@ -239,23 +239,23 @@ Divide work to #3 sub groups based on business goal
 #### Domain model for UC-1:
 
 - Extracting the Responsibilities
-
+![image](https://user-images.githubusercontent.com/49024958/115983405-d848c280-a5db-11eb-8d0a-2f50f18a8323.png)
 - Extracting the Associations
-
+![image](https://user-images.githubusercontent.com/49024958/115983376-af283200-a5db-11eb-910d-8dd6b0cde184.png)
 - Extracting the Attributes
-
+![image](https://user-images.githubusercontent.com/49024958/115983325-70927780-a5db-11eb-8770-58b865f3c16b.png)
 #### Diagram
-
+![image](https://user-images.githubusercontent.com/49024958/115955398-25bc2580-a531-11eb-8864-eb16e7bf0a44.jpg)
 #### Domain model for UC-2:
 
 - Extracting the Responsibilities
-
+![image](https://user-images.githubusercontent.com/49024958/115983561-dc291480-a5dc-11eb-887b-45de2b56efcc.png)
 - Extracting the Associations
-
+![image](https://user-images.githubusercontent.com/49024958/115983513-78065080-a5dc-11eb-8010-5c17ddf2957c.png)
 - Extracting the Attributes
-
+![image](https://user-images.githubusercontent.com/49024958/115983292-4a6cd780-a5db-11eb-8b60-440af8d01c9d.png)
 #### Diagram
-
+![image](https://user-images.githubusercontent.com/49024958/115955402-29e84300-a531-11eb-9bd7-660979924b27.jpg)
 #### Domain model for UC-3:
 
 - Extracting the Responsibilities
@@ -285,7 +285,7 @@ Divide work to #3 sub groups based on business goal
 ![image](https://user-images.githubusercontent.com/55435898/115983401-cf57f100-a5db-11eb-8860-b625fd566356.png)
 
 #### Traceability Matrix
-
+![image](https://user-images.githubusercontent.com/49024958/115956235-a7628200-a536-11eb-8778-9e5374fa88bd.png)
 ## User Interface mockups
 
 ### Sub Group 1: Basic System
