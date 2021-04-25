@@ -199,71 +199,27 @@ RQ17(F/3) The system shall show the total amount user purchased
 
 ### Sub Group 1: Basic System
 
-#### Domain model for UC-1: 
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain1.png)
+#### Domain model for UC-?:
+
+- Extracting the Responsibilities
+
+- Extracting the Associations
+
+- Extracting the Attributes
 
 #### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd1.PNG)
 
+#### Domain model for UC-?:
 
-#### Domain model for UC-2:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain2.png)
+- Extracting the Responsibilities
 
-#### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd2.jpg)
+- Extracting the Associations
 
-#### Domain model for UC-3:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain3.png)
+- Extracting the Attributes
 
 #### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd3.PNG)
-
-#### Domain model for UC-4:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain4.png)
-
-#### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd4.jpg)
-
-#### Domain model for UC-5:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain5.png)
-
-#### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd5.PNG)
-
-#### Domain model for UC-6:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain6.png)
-
-#### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd6.jpg)
-
-#### Domain model for UC-7:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain7.png)
-
-#### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd7.PNG)
-
-#### Domain model for UC-8:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain8.png)
-
-#### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd8.jpg)
-
-#### Domain model for UC-9:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain9.png)
-
-#### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd9.PNG)
-
-#### Domain model for UC-10:  
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain10.png)
-
-#### Diagram
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd10.jpg)
-
-
 
 #### Traceability Matrix
-![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain_tm.png)
 
 ### Sub Group 2: Payment System
 
@@ -394,7 +350,17 @@ RQ17(F/3) The system shall show the total amount user purchased
 ![image](https://user-images.githubusercontent.com/55435898/115983401-cf57f100-a5db-11eb-8860-b625fd566356.png)
 
 #### Traceability Matrix
-![image](https://user-images.githubusercontent.com/49024958/115956235-a7628200-a536-11eb-8778-9e5374fa88bd.png)
+|Req't	|PW	|UC1	|UC2	|UC3	|UC4| (Basic System)UC1 |
+|:---|:---:|:---:|:---:|:---:|:---:|---:|
+REQ1	|5|	X|	X|	|	|X|
+REQ2	|1|	|	X|	X|	|X|
+REQ3	|4|X|	|	X|	|X|
+REQ4	|2|	X| |	|	X|X|
+REQ5	|4|	X|	X|	X|	|X|
+REQ6	|3|	X	|X| |	|X|
+REQ7	|3|	X|	X|	|	|X|
+Max 	|PW| 5	|5	|4|	2|5|
+Total |	PW|	21|	16|	9|	2|22|
 ## User Interface mockups
 
 ### Sub Group 1: Basic System
