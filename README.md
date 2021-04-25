@@ -199,27 +199,81 @@ RQ17(F/3) The system shall show the total amount user purchased
 
 ### Sub Group 1: Basic System
 
-#### Domain model for UC-?:
+#### Domain model for UC-1:
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain1.png)
+#### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd1.PNG)
 
-- Extracting the Responsibilities
-
-- Extracting the Associations
-
-- Extracting the Attributes
+#### Domain model for UC-2:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain2.png)
 
 #### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd2.jpg)
 
-#### Domain model for UC-?:
-
-- Extracting the Responsibilities
-
-- Extracting the Associations
-
-- Extracting the Attributes
+#### Domain model for UC-3:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain3.png)
 
 #### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd3.PNG)
+
+#### Domain model for UC-4:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain4.png)
+
+#### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd4.jpg)
+
+#### Domain model for UC-5:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain5.png)
+
+#### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd5.PNG)
+
+#### Domain model for UC-6:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain6.png)
+
+#### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd6.jpg)
+
+#### Domain model for UC-7:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain7.png)
+
+#### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd7.PNG)
+
+#### Domain model for UC-8:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain8.png)
+
+#### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd8.jpg)
+
+#### Domain model for UC-9:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain9.png)
+
+#### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd9.PNG)
+
+#### Domain model for UC-10:  
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain10.png)
+
+#### Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/dd10.jpg)
+
+
+
+
+
+
+
 
 #### Traceability Matrix
+
+![image](https://github.com/idealization/software-engineering/blob/main/Domain_Model/1.Basic_System/image/domain_tm.png)
+
+
+
+
+
+
 
 ### Sub Group 2: Payment System
 
