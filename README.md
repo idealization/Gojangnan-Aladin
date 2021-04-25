@@ -63,10 +63,10 @@ Divide work to #3 sub groups based on business goal
 
 ### Sub Group 1: Basic System
 
-## main page
+#### main page
 RQ1(F/3) The system should include the button of sign in and sign up
 
-## user
+#### user
 RQ2(F/5) The system should ask again if user tries to see their personal information  
 RQ3(F/1) The system shall include review system: 50 points for star rating, 150 points for text review  
 RQ4(F/5) The system should ask their own phone number in order to sign up  
@@ -80,7 +80,7 @@ RQ11(NF/3) The system shall give 3000 points for those who are newly signed up
 RQ12(F/4) The system should provide new password (with e-mail they entered when signed up) after user tries to sign in for 5 times  
  
 
-## admin
+#### admin
 RQ13(F/4) The system shall newly generate the account of admin  
 RQ14(F/3) The system shall show, delete, modify the information of users  
 RQ15(F/5) The system should modify the database of book  
