@@ -327,5 +327,5 @@ Divide work to #3 sub groups based on business goal
 ### Sub Group 3: Recommendation System
 
 [Main page 북보드]
-![image](https://user-images.githubusercontent.com/49024958/115984504-57d99000-a5e2-11eb-901a-bc65f89eae66.png)
+![image](https://user-images.githubusercontent.com/49024958/115984595-e6e6a800-a5e2-11eb-9581-92243e66d20a.png)
 
