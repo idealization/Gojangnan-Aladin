@@ -63,6 +63,31 @@ Divide work to #3 sub groups based on business goal
 
 ### Sub Group 1: Basic System
 
+## main page
+RQ1(F/3) The system should include the button of sign in and sign up
+
+## user
+RQ2(F/5) The system should ask again if user tries to see their personal information  
+RQ3(F/1) The system shall include review system: 50 points for star rating, 150 points for text review  
+RQ4(F/5) The system should ask their own phone number in order to sign up  
+RQ5(F/3) The system shall include search part by author, book name, and etc that are realted to the book  
+RQ6(F/3) The system shall show the information of the book  
+RQ7(F/1) The system shall stop the purchase when stock is zero  
+RQ8(F/1) The system shall make the book shown at the 'cart' when user press 'add to cart' button  
+RQ9(F/2) The system shall show personal information, grade, point, reviews, purchase history, at mypage  
+RQ10(F/2) The system shall upgrade or downgrade all users' ratings based on the cumulative purchases used last month  
+RQ11(NF/3) The system shall give 3000 points for those who are newly signed up  
+RQ12(F/4) The system should provide new password (with e-mail they entered when signed up) after user tries to sign in for 5 times  
+ 
+
+## admin
+RQ13(F/4) The system shall newly generate the account of admin  
+RQ14(F/3) The system shall show, delete, modify the information of users  
+RQ15(F/5) The system should modify the database of book  
+RQ16(F/4) The system shall manage purchase history, delivery state  
+RQ17(F/3) The system shall show the total amount user purchased  
+
+
 ### Sub Group 2: Payment System
 ![SubGroup2_IEEE-830](./Requirement_Engineering/2.Payment_System/image/IEEE-830_after_CustomerChallenge.png)
 
@@ -75,11 +100,47 @@ Divide work to #3 sub groups based on business goal
 
 ### Sub Group 1: Basic System
 
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/usecase.png)
+
+
 #### Use Case Diagram
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/diagram.PNG)
+
 
 #### Use Case Details
+**1. UC 1** 
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail1.png)
+
+**2. UC 2**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail2.png)
+
+**3. UC 3**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail3.png)
+
+**4. UC 4**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail4.png)
+
+**5. UC 5**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail5.png)
+
+**6. UC 6**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail6.png)
+
+**7. UC 7**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail7.png)
+
+**8. UC 8**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail8.png)
+
+**9. UC 9**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail9.png)
+
+**10. UC 10**
+![image](https://github.com/idealization/software-engineering/blob/main/Use_Cases/1.Basic_System/Detail_of_usecase/detail10.png)
 
 #### Traceability Matrix
+![image](https://github.com/idealization/software-engineering/blob/da6bac2259a081bb7b6d78c44110e809f75e8ceb/Use_Cases/1.Basic_System/tm.png)
+
 
 ### Sub Group 2: Payment System
 
@@ -293,6 +354,23 @@ Divide work to #3 sub groups based on business goal
 ## User Interface mockups
 
 ### Sub Group 1: Basic System
+**1. user-mypage**
+![image](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/1.Basic_System/UI%20sketch/user-mypage.jpg)
+
+**2. user-bookshow**
+![image](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/1.Basic_System/UI%20sketch/user-bookshow.jpg)
+
+**3. mainpage**
+![image](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/1.Basic_System/UI%20sketch/mainpage.jpg)
+
+**4. admin-bookdatabase**
+![image](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/1.Basic_System/UI%20sketch/admin-bookdatabase.jpg)
+
+**5. admin-information**
+![image](https://github.com/idealization/software-engineering/blob/main/Requirement_Engineering/1.Basic_System/UI%20sketch/admin-information.jpg)
+
+
+
 
 ### Sub Group 2: Payment System
 
