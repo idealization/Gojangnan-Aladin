@@ -67,6 +67,7 @@ Divide work to #3 sub groups based on business goal
 ![SubGroup2_IEEE-830](./Requirement_Engineering/2.Payment_System/image/IEEE-830_after_CustomerChallenge.png)
 
 ### Sub Group 3: Recommendation System
+![image](https://user-images.githubusercontent.com/55435898/115983492-51481a00-a5dc-11eb-81bb-c7554d5c5728.png)
 
 # System Model
 
@@ -111,12 +112,24 @@ Divide work to #3 sub groups based on business goal
 ![Traceability_Matrix](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/Traceability_Matrix.png)
 
 ### Sub Group 3: Recommendation System
+![image](https://user-images.githubusercontent.com/55435898/115983553-d3384300-a5dc-11eb-85e1-857de1c692ab.png)
 
 #### Use Case Diagram
 
+![image](https://user-images.githubusercontent.com/55435898/115983172-99663d00-a5da-11eb-9616-6d48a2fa3aa3.png)
+
 #### Use Case Details
+* UC - 1 <br>
+![image](https://user-images.githubusercontent.com/49024958/115952520-601dc680-a521-11eb-8791-e148d9f2ca03.png)
+* UC - 2 <br>
+![image](https://user-images.githubusercontent.com/49024958/115952634-11246100-a522-11eb-85f8-cde3f189a3ff.png)
+* UC-3 <br>
+![image](https://user-images.githubusercontent.com/55435898/115983454-1d6cf480-a5dc-11eb-9225-9a445e620a8b.png)
+* UC-4 <br>
+![image](https://user-images.githubusercontent.com/55435898/115983465-26f65c80-a5dc-11eb-8a4d-f67ada2d1e22.png)
 
 #### Traceability Matrix
+![image](https://user-images.githubusercontent.com/55435898/115983569-ed722100-a5dc-11eb-8d07-a7e6802bb1a5.png)
 
 ## Domain model
 
@@ -223,7 +236,7 @@ Divide work to #3 sub groups based on business goal
 
 ### Sub Group 3: Recommendation System
 
-#### Domain model for UC-?:
+#### Domain model for UC-1:
 
 - Extracting the Responsibilities
 
@@ -233,7 +246,7 @@ Divide work to #3 sub groups based on business goal
 
 #### Diagram
 
-#### Domain model for UC-?:
+#### Domain model for UC-2:
 
 - Extracting the Responsibilities
 
@@ -242,6 +255,34 @@ Divide work to #3 sub groups based on business goal
 - Extracting the Attributes
 
 #### Diagram
+
+#### Domain model for UC-3:
+
+- Extracting the Responsibilities
+![image](https://user-images.githubusercontent.com/55435898/115983305-5eb0d480-a5db-11eb-86f1-010ef907545e.png)
+
+- Extracting the Associations
+![image](https://user-images.githubusercontent.com/55435898/115983322-6e301d80-a5db-11eb-9150-6f48431a2c8f.png)
+
+- Extracting the Attributes
+![image](https://user-images.githubusercontent.com/55435898/115983340-8142ed80-a5db-11eb-85fc-5f293ca5a222.png)
+
+#### Diagram
+![image](https://user-images.githubusercontent.com/55435898/115983350-915acd00-a5db-11eb-87ec-939b2a7d1cd6.png)
+
+#### Domain model for UC-4:
+
+- Extracting the Responsibilities
+![image](https://user-images.githubusercontent.com/55435898/115983703-bf411100-a5dd-11eb-8afd-d7e26584e301.png)
+
+- Extracting the Associations
+![image](https://user-images.githubusercontent.com/55435898/115983389-bc452100-a5db-11eb-928d-88dc42959c13.png)
+
+- Extracting the Attributes
+![image](https://user-images.githubusercontent.com/55435898/115983394-c404c580-a5db-11eb-92a6-55d41e758e15.png)
+
+#### Diagram
+![image](https://user-images.githubusercontent.com/55435898/115983401-cf57f100-a5db-11eb-8860-b625fd566356.png)
 
 #### Traceability Matrix
 
