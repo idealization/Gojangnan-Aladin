@@ -34,7 +34,7 @@
 
 ## Browser (UC-4)
 
-![image](https://user-images.githubusercontent.com/55435898/115954746-a0834180-a52d-11eb-90ba-d6bd794a6a75.png)
+![image](https://user-images.githubusercontent.com/55435898/115983736-0202e900-a5de-11eb-8c83-495ba5a0d46a.png)
 
 ![image](https://user-images.githubusercontent.com/55435898/115954751-a9741300-a52d-11eb-822d-b77c13a9e307.png)
 
