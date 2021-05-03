@@ -38,3 +38,7 @@
 	
 6. UC-6
 	![UC-6](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/UC-6_after_CustomerChallenge.jpg?raw=true)
+
+
+## Traceability Matrix
+![Traceability Matrix](https://github.com/idealization/software-engineering/blob/main/Use_Cases/2.Payment_System/image/Traceability_Matrix.png)

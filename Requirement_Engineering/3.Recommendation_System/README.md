@@ -66,6 +66,6 @@ REQ-6(FR/2,3): The system should display books based on Newest book, MD recomman
 
 REQ-7(FR/2,3): The system should display books based on Newest book, MD recommandation book, and best seller books to authorized user when the system's history(all user's history) is lack.
 
-#
+# UI result ( UI process is on the pdf file)
 
-
+![Uploading image.png…]()

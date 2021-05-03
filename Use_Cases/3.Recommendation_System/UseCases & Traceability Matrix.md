@@ -22,20 +22,20 @@ Customer 		| To press refresh buttons and get new recommended book list		| UC-3	
 
 -Traceability Matrix
 
-|Req't	|PW	|UC1	|UC2	|UC3	|UC4|
-|:---|:---:|:---:|:---:|:---:|---:|
-#REQ1	|5|	X|	X|	|	|
-REQ2	|1|	|	X|	X|	|
-REQ3	|4|X|	|	X|	|
-REQ4	|2|	X| |	|	X|
-REQ5	|4|	X|	X|	X|	|
-REQ6	|3|	X	|X| |	|
-REQ7	|3|	X|	X|	|	|
-Max 	|PW| 5	|5	|4|	2|
-Total |	PW|	21|	16|	9|	2|
+|Req't	|PW	|UC1	|UC2	|UC3	|UC4| (Basic System)UC1 |
+|:---|:---:|:---:|:---:|:---:|:---:|---:|
+REQ1	|5|	X|	X|	|	|X|
+REQ2	|1|	|	X|	X|	| |
+REQ3	|4|X|	|	X|	|X|
+REQ4	|2|	X| |	|	X|X|
+REQ5	|4|	X|	X|	X|	|X|
+REQ6	|3|	X	|X| |	|X|
+REQ7	|3|	X|	X|	|	|X|
+Max 	|PW| 5	|5	|4|	2|5|
+Total |	PW|	21|	16|	9|	2|21|
 
 
 # UseCaseDiagram
 
-![image](https://user-images.githubusercontent.com/55435898/115955404-2a80d980-a531-11eb-9b88-2d83037b719d.png)
+![image](https://user-images.githubusercontent.com/49024958/115996040-b457a200-a618-11eb-913e-72c51f5fe9a8.png)
 
