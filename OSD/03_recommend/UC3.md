@@ -1,17 +1,8 @@
 #  Object Sequence Diagram : UC-3 (Display)
 
-#### 1번째 version
-![OSD-3(1)](https://user-images.githubusercontent.com/55435898/117531882-bf9acc80-b01f-11eb-899b-2b153c9bbcda.jpg)
+![OSD-3(6)](https://user-images.githubusercontent.com/55435898/117673409-be1b0100-b1e5-11eb-8c31-624bab43b8f2.jpg)
+ 
+ ### 변형
+ ![OSD-3(6)변형](https://user-images.githubusercontent.com/55435898/117673450-c5420f00-b1e5-11eb-90c1-e4150645bb6d.jpg)
 
-#### 2번째 version
-![OSD-3(2)](https://user-images.githubusercontent.com/55435898/117531891-c590ad80-b01f-11eb-8306-ab15f9f25f85.jpg)
-
-#### 3번째 version
-![OSD-3(3)](https://user-images.githubusercontent.com/55435898/117531903-cd505200-b01f-11eb-8b92-84206d8460b8.jpg)
-
-#### 4번째 version
-![OSD-3(4)](https://user-images.githubusercontent.com/55435898/117531906-d3463300-b01f-11eb-9126-e907b97ca58f.jpg)
-
-#### 5번째 version
-![OSD-3(5)](https://user-images.githubusercontent.com/55435898/117531914-dd683180-b01f-11eb-8599-db2f3e589a10.jpg)
 
