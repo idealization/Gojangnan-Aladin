@@ -1,6 +1,6 @@
 # Readme.md
-## UC - 1, UC - 2
-![cd](https://user-images.githubusercontent.com/49024958/118111220-5b607a00-b41e-11eb-9d7c-1dd1cb09a669.png)
+## UC - 1 history, UC - 2 recommend
+![CD(2)](https://user-images.githubusercontent.com/49024958/118155793-90d38a80-b453-11eb-84ce-2d59c2e8bafb.png)
 
 ## UC - 3
 ![image](https://user-images.githubusercontent.com/55435898/118110889-eee57b00-b41d-11eb-85ee-07a60be66fc2.png)
