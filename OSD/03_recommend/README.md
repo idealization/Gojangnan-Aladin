@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/49024958/118120807-6b328b00-b42b-11eb-82ba-cfa8375dca87.png)
 
 # UC2-Recommend
-![UC2](https://user-images.githubusercontent.com/49024958/117532004-46e84000-b020-11eb-86e9-2420d775d76d.jpg)
+![image](https://user-images.githubusercontent.com/49024958/118155624-608bec00-b453-11eb-93b0-77df704ebb9c.png)
 
 # UC3-Display
 ![image](https://user-images.githubusercontent.com/55435898/118111390-96fb4400-b41e-11eb-9fbf-0e6e76cd2c86.png)
