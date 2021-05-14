@@ -264,18 +264,20 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 ### (Object) Sequence Diagram
 
-![image](https://user-images.githubusercontent.com/49024958/118250088-0df91100-b4e1-11eb-9fe5-c69b1a917298.png)
+![image](https://user-images.githubusercontent.com/49024958/118250007-fb7ed780-b4e0-11eb-8b5a-a7e14aa189ed.png)
 
 **장점**:
 -logger가 바로 사용자의 데이터를 받아 controller가 전달하는 내용을 기다리지 않는다. 
+
 -비정상 접근을 염려해두고 사용자가 가지고 있던 key를 다시 한번 체크하도록 checker를 두었다. 
 
 **단점**:
 -logger가 바로 사용자의 데이터를 받고, 그 data가 책에 관한 내용인지 필터하고 보내야한다. 
+
 -또한 로그인 되어있는 사용자의 id는 이미 유효한 id인지 확인을 거친 id이다.
 #### Variation 1
 
-![image](https://user-images.githubusercontent.com/49024958/118250007-fb7ed780-b4e0-11eb-8b5a-a7e14aa189ed.png)
+![image](https://user-images.githubusercontent.com/49024958/118250088-0df91100-b4e1-11eb-9fe5-c69b1a917298.png)
 
 **장점**:
 외부에서 전달되는 데이터를 받고 event가 발생했음을 알려주는 역할을 controller로 지정했다. 따라서 logger는 사용자의 입력을 대기할 필요없이 controller한테서 메시지를 받으면 필터를 수행하고 db에 데이터를 전송한다. 
@@ -310,7 +312,7 @@ controller가 오직 하나의 객체에 메세지를 전달함으로서 사용�
 
 ### (Object) Sequence Diagram
 
-![image](https://user-images.githubusercontent.com/49024958/118250741-bc04bb00-b4e1-11eb-8b33-cbaeb3b1e9e2.png)
+![image](https://user-images.githubusercontent.com/49024958/118250708-b5764380-b4e1-11eb-8224-fd1044dbbf9f.png)
 
 **장점**:
 data라는 concept을 추가하여 데이터를 임시로 모아두었다가 모든 데이터가 모이면 한번에 recommendation을 하게 하였다. 따라서 recommendation이 필요한 데이터를 받기 위한 대기 시간이 줄어든다. 
@@ -332,7 +334,7 @@ event가 발생할 때마다 매번 db가 새로 로드된다. 특히 book DB의
 
 #### Variation 2
 
-![image](https://user-images.githubusercontent.com/49024958/118250708-b5764380-b4e1-11eb-8224-fd1044dbbf9f.png)
+![image](https://user-images.githubusercontent.com/49024958/118250741-bc04bb00-b4e1-11eb-8b33-cbaeb3b1e9e2.png)
 (부연 설명)
 (과정)
 1. 따라서 booklog data는 업데이트 되었는지 판단하고, 변동사항이 없다면 이미 load된 데이터를 사용하도록 변형하였다. 이를 위한 전제조건은, admin에 의해서 보유 도서의 정보가 변경이 되었을 때 update 변수가 true로 변경되어야한다.
@@ -346,7 +348,7 @@ option 조건을 두어 DB에서 중복된 데이터를 update 변수와 timesta
 
 #### 최종 선택된 OSD
 (variation 2)
-![image](https://user-images.githubusercontent.com/49024958/118250708-b5764380-b4e1-11eb-8224-fd1044dbbf9f.png)
+![image](https://user-images.githubusercontent.com/49024958/118250741-bc04bb00-b4e1-11eb-8b33-cbaeb3b1e9e2.png)
 
 **선택한 이유**:
 데이터의 중복 로드를 해결해야할 가장 큰 우선순위로 보았다. origin에 비해 controller의 역할이 단순해졌고, 사용자의 기록에 따라 추천이 수행되려면 recommendtation이 효율적으로 데이터를 받아야하기 때문이다.
