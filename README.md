@@ -361,59 +361,44 @@ option 조건을 두어 DB에서 중복된 데이터를 update 변수와 timesta
 
 ### (Object) Sequence Diagram
 
-![]()
+![image](https://user-images.githubusercontent.com/55435898/118111390-96fb4400-b41e-11eb-9fbf-0e6e76cd2c86.png)
 
-**장점**:
+**장점**: 컨트롤러에서 바로 사용자가 클릭한 버튼에 대한 처리를 바로바로 할 수 있다. 그리고 더 가볍게 처리할 수 있다.
 
-**단점**:
+**단점**: 버튼이 추가 될 경우 컨트롤러의 코드를 수정해야 하는 등 추가 기능에 대한 수정이 힘들다.
 
 #### Variation 1
 
-![]()
+![image](https://user-images.githubusercontent.com/55435898/118111445-ab3f4100-b41e-11eb-9f23-768c2143aa7b.png)
 
-**장점**:
+**장점**: 인터페이스 페이지에 더 다양한 버튼 등 기능이 추가 될 경우 컨트롤러의 수정 없이 버튼컨트롤러 수정과 새로운 기능만 수정해주면 된다.
 
-**단점**:
+**단점**: 더 많은 메모리를 사용하며 덜 직관적이다.
 
-#### Variation 2
-
-![]()
-
-**장점**:
-
-**단점**:
 
 #### 최종 선택된 OSD
 
-![]()
+![image](https://user-images.githubusercontent.com/55435898/118111445-ab3f4100-b41e-11eb-9f23-768c2143aa7b.png)
 
-**선택한 이유**:
+**선택한 이유**: 추후에 추천 알고리즘을 무엇을 사용하느냐에 따라 필요한 버튼이나 추가 기능이 생길 가능성이 크기 때문에 더 많은 메모리를 사용하더라도 기능을 추가하기 편한 OSD를 선택하였다.
 
 ### Class Diagram based on selected OSD
 
-![]()
+![image](https://user-images.githubusercontent.com/55435898/118206675-f64c6900-b49d-11eb-80a9-c676ba297e90.png)
 
 ## UC-4: Browser
 
 ### (Object) Sequence Diagram
 
-![]()
+![image](https://user-images.githubusercontent.com/55435898/117532035-74cd8480-b020-11eb-9516-b7a44481e83c.jpg)
 
-**장점**:
+**장점**: 
 
 **단점**:
 
 #### Variation 1
 
-![]()
-
-**장점**:
-
-**단점**:
-
-#### Variation 2
-
-![]()
+![image](https://user-images.githubusercontent.com/55435898/117681212-d3dff480-b1ec-11eb-8486-cbf193235518.jpg)
 
 **장점**:
 
@@ -421,10 +406,10 @@ option 조건을 두어 DB에서 중복된 데이터를 update 변수와 timesta
 
 #### 최종 선택된 OSD
 
-![]()
+![image]()
 
 **선택한 이유**:
 
 ### Class Diagram based on selected OSD
 
-![]()
+![image](https://user-images.githubusercontent.com/55435898/118111064-25bb9100-b41e-11eb-92c8-4326f3d408f3.png)
