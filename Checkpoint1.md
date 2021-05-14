@@ -1,4 +1,8 @@
-# gojangnan aladin
+# Gojangnan Aladin
+
+# Checkpoint 1: Requirements Analysis Document(RAD)
+
+Problem Statement and Requirements, Use Cases, Domain Models for each subgroups
 
 # Problem Statement
 
@@ -68,7 +72,7 @@ RQ1(F/3) The system should include the button of sign in and sign up
 
 ## user
 RQ2(F/5) The system should ask again if user tries to see their personal information  
-RQ3(F/1) The system shall include review system: 50 points for star rating, 150 points for text review  
+RQ3(F/1) The system shall include review system: 50 points for star rating, 150 points for text review
 RQ4(F/5) The system should ask their own phone number in order to sign up  
 RQ5(F/3) The system shall include search part by author, book name, and etc that are realted to the book  
 RQ6(F/3) The system shall show the information of the book  
