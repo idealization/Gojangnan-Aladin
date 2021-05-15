@@ -140,109 +140,162 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 ### (Object) Sequence Diagram
 
-![]()
+![UC-1_draft](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd1.png?raw=true)
 
-**장점**:
+**장점**
 
-**단점**:
+- Shorter communication chain
+
+**단점**
+
+- Extra responsibility for Controller
+  - Controller가 각 Concept별 연결 뿐만 아니라 Request용 data 선별 및 생성 작업까지 책임짐
+  - makeBookRequest()
 
 #### Variation 1
 
-![]()
+![UC-1_va1](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd1_va1.png?raw=true)
 
-**장점**:
+**장점**
 
-**단점**:
+* Controller focused on its specialty == Strong Cohesion
+  * Controller에서 request를 위한 data 선별 및 생성 책임을 Requester로 분리하여 Controller는 각 Concept간 연결에만 책임을 지고, Request는 Database Connection에 request하는 작업의 책임을 갖음
 
-#### Variation 2
+**단점**
 
-![]()
-
-**장점**:
-
-**단점**:
+- Longer communication chain
+  - Requester Concept가 추가되면서 communication chain이 길어짐
 
 #### 최종 선택된 OSD
 
-![]()
+variation1
 
-**선택한 이유**:
+![UC-1_selectedOSD](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd1_va1.png?raw=true)
+
+**선택한 이유**: 두 OSD 모두 고객의 요구를 잘 반영하지만 variation1이 이후 시스템 유지 보수에 있어 더 적합하다고 판단했기 때문
 
 ### Class Diagram based on selected OSD
 
-![]()
+![UC-1_CD](https://github.com/idealization/software-engineering/raw/main/Class_Diagram/02_payment/img/UC-1,3_va1.png?raw=true)
 
 ## UC-2: Payment Process
 
 ### (Object) Sequence Diagram
 
-![]()
+![UC-1_draft](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2.png?raw=true)
 
-**장점**:
+**장점**
 
-**단점**:
+- Archiver는 DB에 tuple을 추가하는 update query를 담당하고, Deleter는 DB에서 일부 tuple을 제거하는 delete query를 담당하여 두 책임을 분리시킴
+
+**단점**
+
+- Longer communication chain
+- Extra responsibility for Controller
+  - Controller가 각 Concept별 연결 뿐만 아니라 Request용 data 선별 및 생성 작업까지 책임짐
+  - makeBookRequest()
+- Controller가 DB에 어떤 작업을 해야 하는지 판단해서 Archiver와 Deleter 둘 중 어느 Concept와 연결되야 할지 판단함
 
 #### Variation 1
 
-![]()
+![UC-2_va1](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2_va1.png?raw=true)
 
-**장점**:
+**장점**
 
-**단점**:
+- Shortest communication chain
+  - 기존 OSD에서 Archiver와 Deleter를 제거하고 해당 작업을 Controller가 하도록 변경
+
+**단점**
+
+- Extra responsibility for Controller
+  - Controller가 각 Concept별 연결 뿐만 아니라 Request용 data 선별 및 생성 작업까지 책임짐
+  - makeBookRequest()
+- Controller가 DB에 어떤 작업을 해야 하는지 판단해서 Archiver와 Deleter 둘 중 어느 Concept와 연결되야 할지 판단함
 
 #### Variation 2
 
-![]()
+![UC-2_va2](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2_va2.png?raw=true)
 
-**장점**:
+**장점**
 
-**단점**:
+- Controller focused on its specialty == Strong Cohesion
+  * Controller에서 request를 위한 data 선별 및 생성 책임을 Requester로 분리하여 Controller는 각 Concept간 연결에만 책임을 지고, Request는 Database Connection에 request하는 작업의 책임을 갖음
+- Controller는 어던 데이터를 Request에 넘겨야하는지만 판단하고 Data에 따라 update query인지 delete query인지는 Requester가 결정함
+- 모든 책임을 최대한 분리하여 high cohesion principle에 가장 부합함
+
+**단점**
+
+- Longest communication chain
+- Archiver와 Deleter모두 Database connection의 method를 호출하는 것이므로 책임이 비슷한데 분리되어 expert doer principle에 위배됨
+
+#### Variation 3
+
+![UC-2_va3](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2_va3.png?raw=true)
+
+**장점**
+
+- Shorter communication chain
+- Controller focused on its specialty == Strong Cohesion
+  * Controller에서 request를 위한 data 선별 및 생성 책임을 Requester로 분리하여 Controller는 각 Concept간 연결에만 책임을 지고, Request는 Database Connection에 request하는 작업의 책임을 갖음
+- Controller는 어던 데이터를 Request에 넘겨야하는지만 판단하고 Data에 따라 update query인지 delete query인지는 Requester가 결정함
+
+**단점**
+
+- Not shortest communication chain
 
 #### 최종 선택된 OSD
 
-![]()
+variation3
 
-**선택한 이유**:
+![UC-2_selectedOSD](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2_va3.png?raw=true)
+
+**선택한 이유**: variation3은 적당히 짧은 communication chain을 가지며 Strong Cohesion Principle에 부합하고, 또한 어느정도 비슷한 기능끼리 묶여있으며, 유지 보수 비용이 적은 편인 OSD이기 때문
 
 ### Class Diagram based on selected OSD
 
-![]()
+![UC-2_CD](https://github.com/idealization/software-engineering/raw/main/Class_Diagram/02_payment/img/UC-2_va3.png?raw=true)
 
 ## UC-3: Cart
 
 ### (Object) Sequence Diagram
 
-![]()
+![UC-2_draft](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd3.png?raw=true)
 
-**장점**:
+**장점**
 
-**단점**:
+- Shorter communication chain
+
+**단점**
+
+- Extra responsibility for Controller
+  - Controller가 각 Concept별 연결 뿐만 아니라 Request용 data 선별 및 생성 작업까지 책임짐
+  - makeBookRequest()
 
 #### Variation 1
 
-![]()
+![UC-3_va1](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd3_va1.png?raw=true)
 
-**장점**:
+**장점**
 
-**단점**:
+* Controller focused on its specialty == Strong Cohesion
+  * Controller에서 request를 위한 data 선별 및 생성 책임을 Requester로 분리하여 Controller는 각 Concept간 연결에만 책임을 지고, Request는 Database Connection에 request하는 작업의 책임을 갖음
 
-#### Variation 2
+**단점**
 
-![]()
-
-**장점**:
-
-**단점**:
+- Longer communication chain
+  - Requester Concept가 추가되면서 communication chain이 길어짐
 
 #### 최종 선택된 OSD
 
-![]()
+variation1
 
-**선택한 이유**:
+![UC-3_selectedOSD](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd3_va1.png?raw=true)
+
+**선택한 이유**: 두 OSD 모두 고객의 요구를 잘 반영하지만 variation1이 이후 시스템 유지 보수에 있어 더 적합하다고 판단했기 때문
 
 ### Class Diagram based on selected OSD
 
-![]()
+![UC-3_CD](https://github.com/idealization/software-engineering/raw/main/Class_Diagram/02_payment/img/UC-1,3_va1.png?raw=true)
 
 # 3. Recommendation
 
