@@ -8,73 +8,39 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 ### (Object) Sequence Diagram
 
-![]()
+![osd1](https://github.com/idealization/software-engineering/blob/268fa8bb1007bee435057cc8e93b0aed9242c06e/OSD/01_basic/image/osd1.jpg)
 
-**장점**:
+**장점**: sign in 하려는 주체에 따라 과정을 분리함으로써 데이터베이스 상에 저장된 로그인 정보 (id와 password, 변수로는 key)를 불러오고 입력값과 비교하는 과정에서 효율성이 높아진다.
 
-**단점**:
+**단점**: customer의 sign in과 admin의 sign in에 대한 비슷한 과정이 반복적으로 나타난다. 
 
 #### Variation 1
 
-![]()
+![osd1-1](https://github.com/idealization/software-engineering/blob/268fa8bb1007bee435057cc8e93b0aed9242c06e/OSD/01_basic/image/osd1-1.jpg)
 
-**장점**:
+**장점**: 비슷한 과정을 통합하여 시스템의 동작을 더 간결하게 표현 및 구현할 수 있다.
 
-**단점**:
-
-#### Variation 2
-
-![]()
-
-**장점**:
-
-**단점**:
+**단점**: sign in 동작 시 접근해야 하는 데이터의 양이 더 많아지고 효율성이 떨어진다.
 
 #### 최종 선택된 OSD
 
-![]()
+![osd1](https://github.com/idealization/software-engineering/blob/268fa8bb1007bee435057cc8e93b0aed9242c06e/OSD/01_basic/image/osd1.jpg)
 
-**선택한 이유**:
+**선택한 이유**: 불필요한 연산을 제거하고 시스템의 효율성을 높이기 위해 sign in의 주체에 따라 과정이 분리되는 방식을 채택한다.
 
-### Class Diagram based on selected OSD
-
-![]()
-
-## UC-2: Search Book
+## UC-2: Search Book, UC-3: Add to Cart, UC-4: Book Detail
 
 ### (Object) Sequence Diagram
 
-![]()
+![osd234](https://github.com/idealization/software-engineering/blob/268fa8bb1007bee435057cc8e93b0aed9242c06e/OSD/01_basic/image/osd234.jpg)
 
-**장점**:
-
-**단점**:
-
-#### Variation 1
-
-![]()
-
-**장점**:
-
-**단점**:
-
-#### Variation 2
-
-![]()
-
-**장점**:
-
-**단점**:
-
-#### 최종 선택된 OSD
-
-![]()
-
-**선택한 이유**:
+**선택한 이유**: 각 usecase는 사용자 입력 및 데이터 출력의 순차적 과정을 따른다.
 
 ### Class Diagram based on selected OSD
 
-![]()
+![0102](https://github.com/idealization/software-engineering/blob/c0e9b3e4612fd8f4dd7229a707f1aebb6349bf4a/Class_Diagram/01_basic/image/0102.jpg)
+![0304](https://github.com/idealization/software-engineering/blob/c0e9b3e4612fd8f4dd7229a707f1aebb6349bf4a/Class_Diagram/01_basic/image/0304.jpg)
+
 
 ## UC-9: Book Data
 
