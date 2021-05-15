@@ -80,7 +80,7 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 ### (Object) Sequence Diagram
 
-![]()
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09.jpg)
 
 **장점**:
 
@@ -88,35 +88,28 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 #### Variation 1
 
-![]()
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09-1.jpg)
 
 **장점**:
 
 **단점**:
 
-#### Variation 2
-
-![]()
-
-**장점**:
-
-**단점**:
 
 #### 최종 선택된 OSD
 
-![]()
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09.jpg)
 
 **선택한 이유**:
 
 ### Class Diagram based on selected OSD
 
-![]()
+![image](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/01_basic/image/09.jpg)
 
 ## UC-10: Admin Account
 
 ### (Object) Sequence Diagram
 
-![]()
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10.jpg)
 
 **장점**:
 
@@ -124,29 +117,22 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 #### Variation 1
 
-![]()
+![iamge](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10-1.jpg)
 
 **장점**:
 
 **단점**:
 
-#### Variation 2
-
-![]()
-
-**장점**:
-
-**단점**:
 
 #### 최종 선택된 OSD
 
-![]()
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10.jpg)
 
 **선택한 이유**:
 
 ### Class Diagram based on selected OSD
 
-![]()
+![image](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/01_basic/image/10.jpg)
 
 # 2. Payment
 
