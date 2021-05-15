@@ -48,24 +48,24 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 ![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09.jpg)
 
-**장점**:
+**장점**: 수정된 내용을 모두 db connection에 저장하놓고 있다가 수정이 모두 끝나면 한번에 update를 한다. 
 
-**단점**:
+**단점**: 수정할 때마다 update 되는 것이 아니라 만약 실수로 시스템이 꺼져버리면 수정된 내용이 전부 사라질 수 있다.
 
 #### Variation 1
 
 ![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09-1.jpg)
 
-**장점**:
+**장점**: 수정할 때마다 update가 되므로 중간에 시스템이 꺼져도 내용은 그대로 있다.
 
-**단점**:
+**단점**: 계속 db connection 과 database 에 update를 해야하기 때문에 시간이 느리다.
 
 
 #### 최종 선택된 OSD
 
 ![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09.jpg)
 
-**선택한 이유**:
+**선택한 이유**: 계속 database에 update를 하거나 load할 필요가 없으니 빨리빨리 수정이 가능하다.
 
 ### Class Diagram based on selected OSD
 
@@ -77,24 +77,24 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 ![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10.jpg)
 
-**장점**:
+**장점**: authorizer 가 있기 때문에 정보에 신뢰성이 있고 vaild한 데이터만 저장하는 검문소 역할을 할 수 있다.
 
-**단점**:
+**단점**: save 하기 전 authorizer가 있기 때문에 시간이 더 걸린다
 
 #### Variation 1
 
 ![iamge](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10-1.jpg)
 
-**장점**:
+**장점**: authorizer 가 없기 때문에 빨리 database에 update가 가능하다.
 
-**단점**:
+**단점**: authorizer가 없어서 vaild한 데이터가 들어오지 않더라고 database에 저장될 수 있다.
 
 
 #### 최종 선택된 OSD
 
 ![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10.jpg)
 
-**선택한 이유**:
+**선택한 이유**: 시간이 조금 더 걸리지만 vaild 한 데이터만 저장하도록 한다
 
 ### Class Diagram based on selected OSD
 
