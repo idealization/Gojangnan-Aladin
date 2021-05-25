@@ -8,7 +8,8 @@
 
 ### 검색페이지
  - [ ] 1. 검색창 (with empty screen for recommendation display below)
- - [ ] 2. 검색 결과 표시 (tha empty sreen is filled with the result list)
+ - [ ] 2. 검색 결과 표시 (the empty sreen is filled with the result list)
 
 ### 책 상세페이지
- - [ ] 상세페이지 표시
+ - [ ] 1. 상세페이지 표시
+ - [ ] 2. add to cart
