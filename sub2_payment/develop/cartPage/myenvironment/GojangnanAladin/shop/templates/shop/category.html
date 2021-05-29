@@ -18,43 +18,45 @@
 
 {% block content %}
     {% if category %}
-        <div>
-            <div>
+        <div class="row my_row_class">
+            <div class="mx-auto">
                 <p><a href="{% url 'shop:allProdCat' %}">Our Product Collection</a> | {{ category.name }} </p>
             </div>
         </div>
     {% endif %}
 
-    <div>
+    <div class="mx-auto">
     {% if category %}
         <div>
-            <img src="{{ category.image.url }}" alt="{{ category.name }}">
+            <img class="my_image" src="{{ category.image.url }}" alt="{{ category.name }}">
         </div>
         <br>
         <div>
-            {{ category.name }}
-            {{ category.description }}
+            <h1 class="text-center my_title">{{ category.name }}</h1>
+            <p class="text-justify">{{ category.description }}</p>
         </div>
     {% else %}
         <div>
-            <img src="{% static 'img/banner.jpg' %}" alt="Our Product Collection">
+            <img class="my_image my_image_padding" src="{% static 'img/banner.jpg' %}" alt="Our Book Collection">
         </div>
         <br>
         <div>
-            <h1>Our book Collections</h1>
-            <p>Finding the book</p>
+            <h1 class="text-center my_title">Our Book Collections</h1>
+            <p class="text-justify">Finding the book</p>
         </div>
     {% endif %}
     </div>
 
-    <div>
-        <div>
+    <div class="container">
+        <div class="row mx-auto">
             {% for product in products %}
-            <div>
-                <a href="{{ product.get_url }}"><img src="{{ product.image.url }}" alt="{{ product.name }}"></a>
-                <div>
-                    <h4>{{ product.name }}</h4>
-                    <p>A${{ product.price }}</p>
+            <div class="my_bottom_margin col-9 col-sm-6 col-md-4 col-lg-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <a href="{{ product.get_url }}"><img class="card-img-top my_image" src="{{ product.image.url }}" alt="{{ product.name }}"></a>
+                    <div class="card-body">
+                        <h4>{{ product.name }}</h4>
+                        <p>A${{ product.price }}</p>
+                    </div>
                 </div>
             </div>
             {% endfor %}
