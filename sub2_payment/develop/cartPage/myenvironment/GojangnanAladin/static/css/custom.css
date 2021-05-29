@@ -47,7 +47,7 @@ body {
     height: auto;
 }
 
-.my_title h1 {
+.my_title {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: .2em;
@@ -59,6 +59,30 @@ body {
 
 .my_bottom_margin {
     margin-bottom: 10px;
+}
+
+/* CSS for Product Page */
+.my_prod_row_class {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.my_prod_row_class .mx-auto p {
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+}
+
+.my_prod_row_class .mx-auto p a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.my_prod_title {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 /* CSS for Cart Page */
