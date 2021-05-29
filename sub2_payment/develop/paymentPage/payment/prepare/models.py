@@ -10,9 +10,11 @@ class UserDeliveryInfo(models.Model):
 
 
 class OrderedBookList(models.Model):
-    user_id = models.CharField(max_length=20)
-    books = models.ForeignKey("Book", related_name="book", on_delete=models.CASCADE, db_column="book")
+    ordered_user_id = models.CharField(max_length=20)
+    ordered_book_id = models.CharField(max_length=20)
 
 
 class Book(models.Model):
-    title = models.CharField(max_length=30)
+    book_id = models.CharField(max_length=20)
+    book_title = models.CharField(max_length=30)
+    book_author = models.CharField(max_length=20)

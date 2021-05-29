@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import UserDeliveryInfo
 from .models import OrderedBookList
+from .models import Book
 from django.views.generic import View
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
@@ -10,12 +11,15 @@ from django.http import HttpResponseRedirect
 
 class Order(View):
     def get(self, request):
-        book_list = False
-        book_lists = OrderedBookList.objects.all()
-        for item in book_lists:
-            if item.user_id == 'user1':
-                book_list = True
-                book_list = item.books
+        ordered_book_lists = OrderedBookList.objects.all()
+        book_lists = Book.objects.all()
+        book_list = []
+        for item in ordered_book_lists:
+            if item.ordered_user_id == 'user1':
+                book_list.append(item.ordered_book_id)
+                for book in book_lists:
+                    if book.book_id == item.ordered_book_id:
+                        book_list.append(book)
         context = {
             'book_list': book_list,
         }

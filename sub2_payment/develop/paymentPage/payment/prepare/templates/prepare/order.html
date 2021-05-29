@@ -7,16 +7,24 @@
 <body>
     <h1>Order</h1>
     <hr />
-    <script language="JavaScript">
-        document.write("<table>");
-            document.write("<th>title</th>");
-            for (i = 0; i < {{book_list}}.length; i++) {
-            document.write("tr");
-                document.write("<td>{{book_list}}[i].title</td>");
-            document.write("/tr");
-            }
-        document.write("</table>");
-    </script>
+    <table>
+        <th>id</th>
+        <th>title</th>
+        <th>author</th>
+        {% for book in book_list %}
+        <tr>
+            <td>
+                {{book.book_id}}
+            </td>
+            <td>
+                {{book.book_title}}
+            </td>
+            <td>
+                {{book.book_author}}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
     <form method="POST">
         {% csrf_token %}
         <p>
