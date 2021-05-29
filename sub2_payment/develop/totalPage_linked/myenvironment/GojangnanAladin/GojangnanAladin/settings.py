@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-+)lbp8(3-xl32p0^fwcrw9u6a4+ahv+^)y+d4jr&z$z95+p*@)'
+SECRET_KEY = 'django-insecure-ukbfv4c3!cfu%^$%7jd78mb8%x+g)!xr_!9ay491kahw6@gous'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'shop',
+    'cart',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +56,11 @@ ROOT_URLCONF = 'GojangnanAladin.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            str(BASE_DIR.joinpath('templates')),
+            str(BASE_DIR.joinpath('shop','templates')),
+            str(BASE_DIR.joinpath('cart','templates')),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -62,6 +68,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'shop.context_processors.menu_links',
+                'cart.context_processors.counter',
             ],
         },
     },
@@ -118,6 +126,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = [
+    str(BASE_DIR / 'static'),
+]
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'static' / 'media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
