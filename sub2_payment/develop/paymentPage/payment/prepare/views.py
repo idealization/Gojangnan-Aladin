@@ -34,9 +34,11 @@ class Order(View):
             message = True
         message = 'Your order has been placed, ' + name
         context = {
+            'name': name,
+            'phone': phone,
+            'address': address,
             'message': message,
         }
         return render(request, 'prepare/result.html', context)
-
 
 

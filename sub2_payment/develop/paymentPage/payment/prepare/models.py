@@ -16,5 +16,4 @@ class OrderedBookList(models.Model):
 
 class Book(models.Model):
     book_id = models.CharField(max_length=20)
-    book_title = models.CharField(max_length=30)
-    book_author = models.CharField(max_length=20)
+    book_price = models.CharField(max_length=20)
