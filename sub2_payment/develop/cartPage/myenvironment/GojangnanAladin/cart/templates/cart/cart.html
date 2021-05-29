@@ -42,42 +42,42 @@
                             </th>
                         </tr>
                     </thread>
-                <tbody>
-                    {% for cart_item in cart_items %}
-                        <tr>
-                            <td>
-                                <a href="{{ cart_item.product.get_absolute_url }}"><img src="{{ cart_item.product.image.url }}"
-                                    alt="" class="float-left rounded custom_image"></a>
-                            </td>
-                            <td class="text-left">
-                                {{ cart_item.product.name }}
-                                <br>
-                                SKU: {{ cart_item.product.id }}
-                                <br>
-                                Unit Price: A${{ cart_item.product.price }}
-                                <br>
-                                Qty: {{ cart_item.quantity }} x A${{ cart_item.product.price }}
-                            </td>
-                            <td>
-                                A${{ cart_item.sub_total }}
-                            </td>
-                            {% if cart_item.quantity < cart_item.product.stock %}
+                    <tbody>
+                        {% for cart_item in cart_items %}
+                            <tr>
                                 <td>
-                                    <a href="{% url 'cart:add_cart' cart_item.product.id %}" class "custom_a">
-                                        <i class="fa fa-plus-circle custom_icon" aria-hidden="true"></i></a>&nbsp;
-                                    <a href="{% url 'cart:cart_remove' cart_item.product.id %}" class="custom_a"><i class="fa fa-minus-circle custom_icon" aria-hidden="true"></i></a>&nbsp;
-                                    <a href="{% url 'cart:full_remove' cart_item.product.id %}" class="custom_a"><i class="fa fa-trash custom_icon" aria-hidden="true"></i></a>
+                                    <a href="{{ cart_item.product.get_absolute_url }}"><img src="{{ cart_item.product.image.url }}"
+                                        alt="" class="float-left rounded custom_image"></a>
                                 </td>
-                            {% else %}
+                                <td class="text-left">
+                                    {{ cart_item.product.name }}
+                                    <br>
+                                    SKU: {{ cart_item.product.id }}
+                                    <br>
+                                    Unit Price: A${{ cart_item.product.price }}
+                                    <br>
+                                    Qty: {{ cart_item.quantity }} x A${{ cart_item.product.price }}
+                                </td>
                                 <td>
-                                    <a href="{% url 'cart:cart_remove' cart_item.product.id %}" class="custom_a"><i class="fa fa-minus-circle custom_icon"></i></a>&nbsp;
-                                    <a href="{% url 'cart:full_remove' cart_item.product.id %}" class="custom_a"><i class="fa fa-trash custom_icon"></i></a>
-                                <td>
-                                <td></td>
-                            {% endif %}
-                        </tr>
-                    {% endfor %}
-                </tbody>
+                                    A${{ cart_item.sub_total }}
+                                </td>
+                                {% if cart_item.quantity < cart_item.product.stock %}
+                                    <td>
+                                        <a href="{% url 'cart:add_cart' cart_item.product.id %}" class "custom_a">
+                                            <i class="fa fa-plus-circle custom_icon" aria-hidden="true"></i></a>&nbsp;
+                                        <a href="{% url 'cart:cart_remove' cart_item.product.id %}" class="custom_a"><i class="fa fa-minus-circle custom_icon" aria-hidden="true"></i></a>&nbsp;
+                                        <a href="{% url 'cart:full_remove' cart_item.product.id %}" class="custom_a"><i class="fa fa-trash custom_icon" aria-hidden="true"></i></a>
+                                    </td>
+                                {% else %}
+                                    <td>
+                                        <a href="{% url 'cart:cart_remove' cart_item.product.id %}" class="custom_a"><i class="fa fa-minus-circle custom_icon"></i></a>&nbsp;
+                                        <a href="{% url 'cart:full_remove' cart_item.product.id %}" class="custom_a"><i class="fa fa-trash custom_icon"></i></a>
+                                    <td>
+                                    <td></td>
+                                {% endif %}
+                            </tr>
+                        {% endfor %}
+                    </tbody>
                 </table>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
@@ -89,17 +89,18 @@
                             </td>
                         </tr>
                     </thread>
-                <tbody>
-                    <tr>
-                        <td>
-                            Please review your shopping cart items before proceeding with the order payment.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">
-                            Your total is : <strong>A${{ total }}</strong>
-                        </td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Please review your shopping cart items before proceeding with the order payment.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">
+                                Your total is : <strong>A${{ total }}</strong>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
                 <div class="mx-auto">
                     <a href="{% url 'shop:allProdCat' %}" class="btn btn-secondary btn-block my_custom_button">Continue Shopping</a>
