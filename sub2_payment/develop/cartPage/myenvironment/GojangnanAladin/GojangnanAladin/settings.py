@@ -57,6 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
+            str(BASE_DIR.joinpath('templates')),
             str(BASE_DIR.joinpath('shop','templates')),
             str(BASE_DIR.joinpath('cart','templates')),
         ],
