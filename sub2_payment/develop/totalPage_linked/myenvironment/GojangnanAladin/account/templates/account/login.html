@@ -18,23 +18,16 @@
 
 {% block content %}
     <div class="container my-3">
+        <div class="row">
+            <div class="col-4">
+                <h4>LOG IN</h4>
+            </div>
+            <div class="col-8 text-right">
+                <span>or <a href="{% url 'account:signup' %}">sign up.</a></span>
+        </div>
         <form method="post" class="post-form" action="{% url 'account:login' %}">
             {% csrf_token %}
-            {% if form.errors %}
-                {% for field in form %}
-                    {% for error in field.errors %}  <!-- 필드 오류를 출력한다. -->
-                        <div class="alert alert-danger">
-                            <strong>{{ field.label }}</strong>
-                            {{ error }}
-                        </div>
-                    {% endfor %}
-                {% endfor %}
-                {% for error in form.non_field_errors %}   <!-- 넌필드 오류를 출력한다. -->
-                    <div class="alert alert-danger">
-                        <strong>{{ error }}</strong>
-                    </div>
-                {% endfor %}
-            {% endif %}
+            {% include "form_errors.html" %}
             <div class="form-group">
                 <label for="username">ID</label>
                 <input type="text" class="form-control" name="username" id="username"
