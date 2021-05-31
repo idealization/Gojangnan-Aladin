@@ -79,6 +79,7 @@ TEMPLATES = [
     },
 ]
 
+# Which url to move after login or logout
 LOGIN_REDIRECT_URL = 'shop/'
 LOGOUT_REDIRECT_URL = '/'
 

@@ -65,11 +65,16 @@ def full_remove(request, product_id):
 @login_required(login_url='account:login')
 def cart_detail(request, total=0, counter=0, cart_items = None):
     try:
-        cart = Cart.objects.get(user = request.user)
-        cart_items = CartItem.objects.filter(cart=cart, activate=True)
-        for cart_item in cart_items:
-            total += (cart_item.product.price * cart_item.quantity)
-            counter += cart_item.quantity
+        user = request.user
+
+        if user.is_authenticated:
+            cart = Cart.objects.get(user = request.user)
+            cart_items = CartItem.objects.filter(cart=cart, activate=True)
+            for cart_item in cart_items:
+                total += (cart_item.product.price * cart_item.quantity)
+                counter += cart_item.quantity
+        else:
+            raise ObjectDoesNotExist()
 
     except ObjectDoesNotExist:
         pass
