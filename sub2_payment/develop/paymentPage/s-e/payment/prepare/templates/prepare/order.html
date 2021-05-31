@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Prepare Payment
+{% endblock %}
+
+{% block content %}
+    <h1>Order</h1>
+    <hr />
+    <h2>Products</h2>
+    <table class="order_page_book_list">
+        <colgroup>
+            <col style="width:80%">
+            <col style="width:20%">
+        </colgroup>
+        <th class="table_title">title</th>
+        <th class="table_title">price</th>
+        {% for book in book_list %}
+        <tr>
+            <td class="table_row">
+                {{book.book_id}}
+            </td>
+            <td class="table_row">
+                {{book.book_price}}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <h2>Insert Delivery Information</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <h3>Name</h3>
+            <input class="input_info" name="user_name" required />
+        </p>
+        <p>
+            <h3>Phone Number</h3>
+            <input class="input_info" name="user_phone" required />
+        </p>
+        <p>
+            <h3>Address</h3>
+            <input class="input_info" name="user_address" required />
+        </p>
+        <p>
+        <center>
+            <input type="submit" value="Buy" />
+        </center>
+        </p>
+    </form>
+{% endblock %}
