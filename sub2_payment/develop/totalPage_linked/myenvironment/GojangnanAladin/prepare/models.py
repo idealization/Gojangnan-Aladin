@@ -14,7 +14,6 @@ class Order(models.Model):
         (DELIVERY_OVER, 'Delivery over')
     ]
 
-    order_id = models.CharField(max_length=250, unique=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     pay_date = models.DateField(auto_now_add=True)
     price = models.DecimalField(max_digits=10, decimal_places=2)
