@@ -25,7 +25,7 @@ class Order(models.Model):
         ordering = ['pay_date']
 
     def __str__(self):
-        return self.payment_id
+        return self.order_id
 
 
 class OrderDeliveryInfo(models.Model):
