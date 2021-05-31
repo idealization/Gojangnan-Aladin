@@ -60,8 +60,6 @@ class ButtonCtrl:
             self.p -= 5
         elif k.isRightArrow():
             self.p += 5
-            if self.p > 20:
-                self.p = 0
         elif k.isLeftRefresh():
             self.p -= 20
         elif k.isRightRefresh():
