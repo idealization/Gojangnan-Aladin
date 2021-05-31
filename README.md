@@ -148,6 +148,7 @@ Main page for customerID: 3001
 - The "Gojangnan Aladin" recommends the book lists for him based on customers book-lookup table(Log DB). When the customer click a book, the Logger colects the book he clicked.
 
 ![bandicam_2021-05-31_23-20-38-878](https://user-images.githubusercontent.com/49024958/120211566-0751f400-c26c-11eb-88fe-4fa05d0e04d2.jpg)
+
 When pressing the right arrow button:
 
 - Customer can view more books lists when click the left/right arrows.
@@ -156,21 +157,25 @@ When pressing the right arrow button:
 Click the arrow button again.
 
 ![bandicam_2021-05-31_23-21-51-588](https://user-images.githubusercontent.com/49024958/120211549-028d4000-c26c-11eb-84ac-321aa8b8e42c.jpg)
+
 When pressing the refresh button
 
 - The recommended book list has changed.
 
 ![bandicam_2021-05-31_23-22-08-305](https://user-images.githubusercontent.com/49024958/120211522-fc975f00-c26b-11eb-878c-600170571334.jpg)
+
 The recommend result is personalized to users. When another user logged in, and the userID 
 
 Main page for customerID: 617
 
 ![main_page_for_user_617](https://user-images.githubusercontent.com/49024958/120211508-fa350500-c26b-11eb-86b2-722543d99cfe.jpg)
+
 Until now, this is subgroup3's demo for 30% requirements. 
 
 ---
 
 ## Page Redirection with subgroup1
+
 
 Now, here is the redirect structure with subgroup 1. 
 
