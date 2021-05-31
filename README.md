@@ -80,7 +80,8 @@ book 정보 관리 가능
 
 ### requirements
 
-(환경 세팅: 개발 시 설치했던 django 등 라이브러리 버전, pip list 해서 걍 복붙해주세용)
+Django                   3.2.3
+Pillow                   8.2.0
 
 ### setting
 
@@ -108,9 +109,7 @@ book 정보 관리 가능
 
 ### requirements
 
-Django                   3.2.3
-Pillow                   8.2.0
-Werkzeug                 1.0.1
+
 
 ### setting
 
