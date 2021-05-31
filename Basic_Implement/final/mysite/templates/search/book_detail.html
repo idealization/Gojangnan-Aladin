@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- 부트스트랩 적용하기
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+-->
+
+
+<!--적용된 detail 화면-->
+<div class="container my-3" >
+
+
+    <!--질문을 표시하는 것: 책 제목-->
+    <h1 class="text-center">Book Detail</h1>
+    <!--여기에 책 main 넣으면 될듯-->
+    <div class="card my-5">
+        <div class="card-body">
+
+            <!--책의 정보-->
+            <div class="card-text" style="white-space: pre-line;">
+                <!--이런 식으로 객체의 정보 빼오면 됨-->
+                <h7>Original Title: {{ book.original_title }}</h7>
+                <h1>Title: {{ book.title }}</h1>
+`
+                <img src= "{{ book.image_url }}" width="300" height="450"/>
+
+                <h4>Author: {{ book.author }}</h4>
+                <h4>Price: {{ book.price }}</h4>
+                <h4>ISBN: {{ book.ISBN }}</h4>
+
+                <!--맨 위는 책 제목 나오게 하고
+                이 칸에는 책의 정보들 표시하고
+                밑에는 세부정보 등 표기하기
+                카드 바디를 하던 뭐 어떻게 하던 사이즈 뭐 알아서 조절하고...
+                장바구니 버튼도 만들어야하넹: 끝
+                밑에 book detail 은 사람들 코멘트?- ㄴㄴ-->
+            </div>
+
+           
+
+
+            <br>
+            <div class="text-right">
+                <a href="#" class="addtocart btn btn-sm btn-outline-secondary right">
+                ADD TO CART
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!--answer 정보 표시 전부 삭제함-->
+</div>
+
+{% endblock %}
+
+
+
+<!--삭제 알림 창 기능 추가 : 장바구니 넣기?-->
+{% block script %}
+<script type='text/javascript'>
+$(document).ready(function(){
+    $(".addtocart").on('click', function() {
+        if(confirm("장바구니에 담겼습니다. 장바구로 이동하시겠습니까?")) {
+
+        //장바구니 페이지로 이동하는 주소 넣으면 됨. 지금은 아무것도 안함-
+            //location.href = $(this).data('uri');
+
+        }
+    });
+});
+</script>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
