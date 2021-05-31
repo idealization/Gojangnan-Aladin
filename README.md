@@ -182,10 +182,13 @@ Now, here is the redirect structure with subgroup 1.
 1. When the customer click a book image, the page is redirected to subgroup1's detail book page.
 
 ![bandicam_2021-05-31_23-48-06-537](https://user-images.githubusercontent.com/49024958/120211487-f43f2400-c26b-11eb-896f-0d548c06f200.jpg)
+
 ![bandicam_2021-05-31_23-45-03-126](https://user-images.githubusercontent.com/49024958/120211476-f1443380-c26b-11eb-85d2-6ed741b0d78c.jpg)
+
 2. When the customer click a "search 검색" button, the page is redirected to subgroup1's page.
 
 ![bandicam_2021-05-31_23-49-07-515](https://user-images.githubusercontent.com/49024958/120211470-eee1d980-c26b-11eb-9f6f-5940ca859d2b.jpg)
+
 ![bandicam_2021-05-31_23-48-53-446](https://user-images.githubusercontent.com/49024958/120211462-ebe6e900-c26b-11eb-97a0-962170eff815.jpg)
 ---
 
