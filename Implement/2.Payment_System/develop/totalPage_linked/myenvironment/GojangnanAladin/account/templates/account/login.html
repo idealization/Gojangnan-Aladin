@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+{% block metadescription %}
+    {% if category %}
+        {{ category.description|truncatewords:155 }} - Category
+    {% else %}
+        Welcome to the Gojangnan Aladin.
+    {% endif %}
+{% endblock %}
+
+{% block title %}
+    {% if category %}
+        {{ category.name }} - Gojangnan Aladin
+    {% else %}
+        See Our Book Collection - Perfect Online Book Store.
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-4">
+                <h4>LOG IN</h4>
+            </div>
+            <div class="col-8 text-right">
+                <span>or <a href="{% url 'account:signup' %}">sign up.</a></span>
+        </div>
+        <form method="post" class="post-form" action="{% url 'account:login' %}">
+            {% csrf_token %}
+            {% include "form_errors.html" %}
+            <div class="form-group">
+                <label for="username">ID</label>
+                <input type="text" class="form-control" name="username" id="username"
+                    value="{{ form.username.value|default_if_none:'' }}">
+            </div>
+            <div class="form-group">
+                <label for="password">PW</label>
+                <input type="password" class="form-control" name="password" id="password"
+                    value="{{ form.password.value|default_if_none:'' }}">
+            </div>
+            <button type="submit" class="btn btn-secondary">LOG IN</button>
+        </form>
+    </div>
+{% endblock %}

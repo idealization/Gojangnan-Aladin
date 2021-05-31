@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item {
+    letter-spacing: .2em;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.dropdown-item {
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+/* CSS for Footer */
+.my_footer {
+    background-color: #f8f9fa;
+    height: 60px;
+}
+
+.my_footer p {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+/* CSS for Cart Page */
+.my_customer_table {
+    min-width: 400px;
+    font-size:  14px;
+}
+
+.my_custom_thread {
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    background-color: #f8f9fa !important;
+}
+
+.custom_image {
+    width: 100px;
+    height: 100px;
+}
+
+.custom_a {
+    text-decoration: none;
+}
+
+.custom_icon {
+    text-decoration: none;
+    color: #868e96 !important;
+}
+
+.my_custom_button{
+    margin-top: 5px;
+}
+
+.order_page_book_list, .table_title, .table_row {
+    border: 1px solid black;
+}
+
+.order_page_book_list {
+    width: 100%;
+    height: 150px;
+}
+
+.jb-th-1 {
+    width: 600px;
+    height: 200px;
+}
+
+.table_row:hover {
+    background-color: #ffc5c2;
+    cursor: pointer;
+}
+
+.input_info {
+    width: 100%;
+    height: 50px;
+    border : 2px solid skyblue;
+    border-radius : 5px;
+}
+
+.input_info:hover {
+    background : aliceblue;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius : 5px;
+}
+
+input[type=submit]:hover {
+    background : yellow;
+    cursor: pointer;
+}
+
+.check_order_info {
+    width: 100%;
+    height: 150px;
+}
+
+input[type=button] {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius : 5px;
+}
+
+input[type=button]:hover {
+    background : yellow;
+    cursor: pointer;
+}
