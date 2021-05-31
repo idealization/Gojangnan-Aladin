@@ -2,12 +2,14 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from .models import Category, Product
 from django.core.paginator import Paginator, EmptyPage, InvalidPage
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 # def index(request):
 #     text_var = "This is my first Django app web page!!"
 #     return HttpResponse(text_var)
 
+@login_required(login_url='account:login')
 def allProdCat(request, c_slug=None):
     c_page = None
     products_list = None
@@ -31,6 +33,7 @@ def allProdCat(request, c_slug=None):
 
     return render(request, 'shop/category.html', {'category': c_page, 'products':products})
 
+@login_required(login_url='account:login')
 def ProdCatDetail(request, c_slug, product_slug):
     try:
         product = Product.objects.get(category__slug=c_slug, slug=product_slug)
