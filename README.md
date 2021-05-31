@@ -123,9 +123,11 @@ login을 하면 보이는 메인 화면이다. 이 화면 역시 subgroup2의 �
 
 ![main_toggle](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(7).png)
 
+메인 화면에서 도서의 카테고리를 설정하면 해당 카테고리에 속한 도서 목록을 볼 수 있다.
+
 ![business](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(8).png)
 
-메인 화면에서 도서의 카테고리를 설정하면 해당 카테고리에 속한 도서 목록을 볼 수 있으며, business & investing 카테고리를 클릭한 모습이다. 또한, 장바구니 버튼과 검색 버튼이 있다. subgroup2의 역할에 따라 장바구니 페이지를 구현하였고, 장바구니 버튼을 눌러 접속할 수 있다.
+메인 화면에서 business & investing 카테고리를 클릭한 모습이다. 또한, 장바구니 버튼과 검색 버튼이 있다. subgroup2의 역할에 따라 장바구니 페이지를 구현하였고, 장바구니 버튼을 눌러 접속할 수 있다.
 
 ![out_of_stock](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(9).png)
 
