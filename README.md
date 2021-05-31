@@ -12,31 +12,69 @@ Describe our Implement and Demo based on top 30% Requirements Analysis
 
 # 1. Basic
 
-### requirements
+## requirements
 
-(환경 세팅: 개발 시 설치했던 django 등 라이브러리 버전, pip list 해서 걍 복붙해주세용)
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/requirement/version.png)
 
-### setting
+## Setting
 
-(여기엔 회원가입 해야된다거나.. 뭐를 어떻게 맞춰줘야 된다거나.. 등등 주의할 점 써주면 될 듯!!)
+회원가입을 한 후 
+
+
 
 ## Database
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/data/bookdata.png)
 
-(사진)
+subgroup 3 에서 사용한 book 의 데이터를 사용하였다. 
 
-(설명)
+## DEMO
 
-## ~~ page, 과정별로
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/main.png)
 
-(사진)
+main 화면
 
-(설명, 중간중간 디비 변화 등 같이 첨부)
 
-## ~~ page
 
-(사진)
+#### 1) 고객의 경우
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/signup1.png)
+계정이 없으면 sign up 을 한다.
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/signup2.png)
+각 항목이 모두 채워지지 않으면 계정이 만들어지지 않는다.
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/booklist.png)
+로그인을 하면 책 목록이 보인다. 
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/bookdetail1.png)
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/bookdetail2.png)
+제목을 클릭하면 책 정보를 확인할 수 있다.
 
-(설명)
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/search1.png)
+책 검색을 하면 키워드에 맞는 책 리스트가 나온다.
+
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/addtocartbutton.png)
+우측 하단에 있는 add to cart 버튼을 누르면 '장바구니에 담겼습니다.' 확인창이 뜬다. 
+
+
+#### 2) admin의 경우
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/admin1.png)
+메인 화면에서 우측 하단 버튼을 누르면 다음 화면이 뜬다.
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/admin2.png)
+어드민 계정으로 로그인 한 화면.
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/admin3-1.png)
+book 정보 관리 가능
+![image](https://github.com/idealization/software-engineering/blob/main/Implement/1.Basic_System/%EC%82%AC%EC%A7%84/demo/admin3-2.png)
+계정들 확인 가능
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 2. Payment
 
