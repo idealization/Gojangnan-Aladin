@@ -1,4 +1,4 @@
-# Checkpoint 2: System Design Document(SDD)
+# Checkpoint 3: Implement and Demo
 
 Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements Analysis
 
