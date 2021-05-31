@@ -18,7 +18,7 @@ Describe our Implement and Demo based on top 30% Requirements Analysis
 
 ## Setting
 
-회원가입을 한 후 
+회원가입을 하고 로그인을 하면 책 리스트를 볼 수 있다. 검색창에 검색을 하면 그 키워드를 받고 filter을 적용해서 book data에서 해당 키워드가 있는 책을 전부 불러온다. 
 
 
 
