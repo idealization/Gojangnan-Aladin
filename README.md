@@ -87,6 +87,21 @@ Pillow                   8.2.0
 
 (여기엔 회원가입 해야된다거나.. 뭐를 어떻게 맞춰줘야 된다거나.. 등등 주의할 점 써주면 될 듯!!)
 
+models.py 파일에서 database를 수정할 시 해당 app의 상위 폴더(manage.py가 있는 폴더)에서
+-> python manage.py makemigrations 
+-> python manage.py migrate 
+명령어를 수행하고,
+
+CSS 등 static 폴더 안의 파일을 수정할 시
+-> python manage.py collectstatic
+명령어를 수행한 뒤, 
+
+-> python manage.py runserver
+명령어로 로컬 서버를 활성화한다.
+
+장바구니와 결제 서비스를 이용하기 위해서는 고객 고유의 계정이 있어야 하므로 처음 실행 시 sign up, login 기능을 필수적으로 이행해야 한다.
+
+
 ## Database
 
 (사진)
@@ -107,27 +122,12 @@ Pillow                   8.2.0
 
 # 3. Recommendation
 
-### requirements
+## 30% Requirement
 
-
-
-### setting
-
-models.py 파일에서 database를 수정할 시 해당 app의 상위 폴더(manage.py가 있는 폴더)에서
--> python manage.py makemigrations 
--> python manage.py migrate 
-명령어를 수행하고,
-
-CSS 등 static 폴더 안의 파일을 수정할 시
--> python manage.py collectstatic
-명령어를 수행한 뒤, 
-
--> python manage.py runserver
-명령어로 로컬 서버를 활성화한다.
-
-장바구니와 결제 서비스를 이용하기 위해서는 고객 고유의 계정이 있어야 하므로 처음 실행 시 sign up, login 기능을 필수적으로 이행해야 한다.
-
-# Untitled
+1. (REQ-1) The system should recommend books based on authorized customer's history log.(collaborative recommendation 알고리즘만 구현)
+2. (REQ-3) The system shall show the recommendation page, which displays books to  customer and then user can view books.
+3. (REQ-5) The system shall maintain the customer's history log of all attempted accesses for recommendation.
+4. (REQ-6) The system shall update the displaying recommended books every second, when the page is redirected.
 
 **How to run**
 
