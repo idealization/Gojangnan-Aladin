@@ -20,7 +20,7 @@ Describe our Implement and Demo based on top 30% Requirements Analysis
 
 (여기엔 회원가입 해야된다거나.. 뭐를 어떻게 맞춰줘야 된다거나.. 등등 주의할 점 써주면 될 듯!!)
 
-## database
+## Database
 
 (사진)
 
@@ -48,7 +48,7 @@ Describe our Implement and Demo based on top 30% Requirements Analysis
 
 (여기엔 회원가입 해야된다거나.. 뭐를 어떻게 맞춰줘야 된다거나.. 등등 주의할 점 써주면 될 듯!!)
 
-## database
+## Database
 
 (사진)
 
@@ -76,7 +76,7 @@ Describe our Implement and Demo based on top 30% Requirements Analysis
 
 (여기엔 회원가입 해야된다거나.. 뭐를 어떻게 맞춰줘야 된다거나.. 등등 주의할 점 써주면 될 듯!!)
 
-## database
+## Database
 
 (사진)
 
