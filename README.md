@@ -85,40 +85,107 @@ Pillow                   8.2.0
 
 ### setting
 
-(여기엔 회원가입 해야된다거나.. 뭐를 어떻게 맞춰줘야 된다거나.. 등등 주의할 점 써주면 될 듯!!)
-
 models.py 파일에서 database를 수정할 시 해당 app의 상위 폴더(manage.py가 있는 폴더)에서
+
 -> python manage.py makemigrations 
+
 -> python manage.py migrate 
-명령어를 수행하고,
+명령어를 수행하고, (migrate는 첫 실행 시마다 수행)
 
 CSS 등 static 폴더 안의 파일을 수정할 시
+
 -> python manage.py collectstatic
 명령어를 수행한 뒤, 
 
 -> python manage.py runserver
 명령어로 로컬 서버를 활성화한다.
 
-장바구니와 결제 서비스를 이용하기 위해서는 고객 고유의 계정이 있어야 하므로 처음 실행 시 sign up, login 기능을 필수적으로 이행해야 한다.
+장바구니와 결제 서비스를 이용하기 위해서는 고객 고유의 계정이 있어야 하므로 처음 실행 시 sign up, login 기능을 필수적으로 해야 한다.
 
 
-## Database
+## Demo
 
-(사진)
+![login](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(2).png)
 
-(설명)
+cart page와 payment page에 접근하기 위해 고객이 식별돼야 하므로 login을 먼저 한다. 사용자 계정이 없다면 sign up을 눌러 회원가입을 할 수 있다. subgroup2의 역할은 아니지만, demo를 위해 간단히 구현하였다.
 
-## ~~ page, 과정별로
+![main](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(3).png)
 
-(사진)
+login을 하면 보이는 메인 화면이다. 이 화면 역시 subgroup2의 역할은 아니지만, demo를 위해 간단히 구현하였다. user는 'sangh'으로 테스트하였다.
 
-(설명, 중간중간 디비 변화 등 같이 첨부)
+![main2](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(4).png)
 
-## ~~ page
+![main3](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(5).png)
 
-(사진)
+![main4](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(6).png)
 
-(설명)
+메인 화면에는 위와 같이 도서 목록이 나온다. 일부 도서의 표지 사진, 제목, 가격만 볼 수 있게 구현해 놓았다.
+
+![main_toggle](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(7).png)
+
+![business](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(8).png)
+
+메인 화면에서 도서의 카테고리를 설정하면 해당 카테고리에 속한 도서 목록을 볼 수 있으며, business & investing 카테고리를 클릭한 모습이다. 또한, 장바구니 버튼과 검색 버튼이 있다. subgroup2의 역할에 따라 장바구니 페이지를 구현하였고, 장바구니 버튼을 눌러 접속할 수 있다.
+
+![out_of_stock](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(9).png)
+
+도서 목록에서 한 도서를 클릭하면, 위와 같이 detail 화면이 뜬다. 이 또한 subgroup2의 역할은 아니지만, demo에서 재고가 있어야 구매를 할 수 있고 구매를 하면 재고가 줄어들어야 하는 상황을 나타내기 위해 간단히 구현하였다. 이 사진은 현재 도서 database에서 해당 도서의 재고가 없기 때문에 구매할 수 없는 상황이다.
+
+![detail](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(10).png)
+
+도서 database에 해당 도서의 재고가 있다면 add to cart 버튼을 확인할 수 있다. 이 버튼을 누르면 장바구니에 상품이 담긴다.
+
+![cart](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(11).png)
+
+위의 상품을 장바구니에 담고 난 후의 cart page 화면이다. 현재 'The Art Book'을 1권 담은 상태이고, 위 main page에서 확인할 수 있었던 장바구니 아이콘 옆에는 1이 표시되었다. 이때 책 옆에 표시되는 추가, 삭제 버튼을 통해 구매 수량을 조절하거나 해당 상품을 장바구니에서 제거할 수 있다.
+
+![cart2](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(12).png)
+
+위의 상황에서 'Batman: Three Jockers' 책을 추가한 화면이다. 따라서 SKU가 9인 책이 1권, SKU가 2인 책이 3권 들어있다. 이 책을 3권 구매하는 것으로 수량을 조절하면, 위의 장바구니 아이콘 옆에는 4가 표시되고 더이상 재고가 없기 때문에 추가 버튼이 없어진다. 이 상황을 DB와 비교하며 살펴보면 다음과 같다.
+
+![user](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(13).png)
+
+이 때의 auth_user DB이다. 현재 테스트하고 있는 'sangh'이 있고, 'sangh'의 고유 번호(id)는 8임을 확인할 수 있다.
+
+![cart](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(14).png)
+
+모든 유저의 cart DB이다. user와 cart 고유 id가 저장된다. user_id가 8인 유저의 cart 고유 번호(id)는 22임을 확인할 수 있다.
+
+![cart_item](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(15).png)
+
+cart에 들어있는 상품을 나타내는 cartItem DB이다. cart_id가 22인 행을 보면, product_id가 9인 책이 1권, product_id가 2인 책이 3권 들어있음을 확인할 수 있다. 이는 위의 cart page에서 확인했던 내용과 같다.
+
+![prepare](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(16).png)
+
+cart page에서 Prepare to Checkout 버튼을 누르면 구매하기 위해 필요한 배송 정보를 입력할 수 있다. 
+
+![prepare2](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(17).png)
+
+Name, Phone, Address를 형식에 맞게 입력해야 한다.
+
+![buy](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(18).png)
+
+배송 정보를 입력하고 나면, Buy 버튼을 눌러 결제 과정을 시작할 수 있다. 고객이 입력한 배송 정보가 간단하게 나타나고, PG사의 결제 페이지가 나타난다. 그러나 이번 구현에서는 우리의 가맹점 번호가 없어서 PG사의 결제 서비스를 연결하지 못했다.
+
+![cart2](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(19).png)
+
+결제하고 난 후의 cart DB 모습이다. 위에서 첨부한 cart DB 화면과 비교해 보면, 결제한 상품이 cart에서 제외되었음을 확인할 수 있다.
+
+![cart_item2](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(20).png)
+
+cartItem DB 또한 결제한 상품이 삭제되었다.
+
+![pay](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(21).png)
+
+구매 내역을 나타내는 DB이다. user_id가 8인 'sangh'의 구매 내역이 추가되었고, 이 구매 내역 id는 2로 설정되었다.
+
+![order](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(22).png)
+
+주문한 책의 정보를 나타내는 DB이다. product_id가 9인 책이 1권, product_id가 2인 책이 3권 주문된 내역이 추가되었다. 또한, 이 주문 내역의 id는 2라고 알맞게 표시된다.
+
+![orderinfo](https://github.com/idealization/software-engineering/blob/main/Implement/2.Payment_System/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7(23).png)
+
+주문한 고객의 정보를 나타내는 DB이다. order_id가 2인 주문 정보의 고객이 'sangh'로 설정되었음을 확인할 수 있다.
 
 # 3. Recommendation
 
