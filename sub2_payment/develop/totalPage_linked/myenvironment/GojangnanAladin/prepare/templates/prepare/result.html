@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Payment Process
+{% endblock %}
+
+{% block content %}
+    <h1>{{message}}</h1>
+    <hr />
+    <h2>Delivery Information</h2>
+    <table class="check_order_info">
+        <colgroup>
+            <col style="width:20%">
+            <col style="width:80%">
+        </colgroup>
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                {{name}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone Number:
+            </td>
+            <td>
+                {{phone}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address:
+            </td>
+            <td>
+                {{address}}
+            </td>
+        </tr>
+    </table>
+    <h2>Pay</h2>
+    <center>
+    <input
+        type="button"
+        value="order page"
+        onclick="location.replace('/shop/')"
+    />
+    </center>
+{% endblock %}
