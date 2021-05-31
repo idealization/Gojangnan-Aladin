@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gojangnan Aladin</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <ul class="skipnavi">
+        <li><a href="#container">본문내용</a></li>
+    </ul>
+    <!--wrap 시작-->
+    <div id="wrap">
+        <!--header 시작-->
+        <header id = "header">
+            <!--로고-->
+            <div id="logo">
+                <img src="{% static 'images/new_logo.png' %}">
+                <h1><a href = "/gojangnanAladin/">Gojangnan Aladin</a></h1>
+            </div>
+            <!--상단 메뉴 시작-->
+            <navi>
+                <ul class="clear">
+                    <li><a href="{% url 'search' %}">검색</a><a href="#">장바구니</a><a href="#">마이페이지</a></li>
+                </ul>
+            </navi>
+            <!--상단 메뉴 끝-->
+        </header>
+        <!--header 끝-->
+        <!--container 시작-->
+        <div id="container">
+            <div class="box" id="box1">
+                <div class="title">
+                    <h3>추천1</h3>
+                    <form action="/gojangnanAladin/change/" method="post">
+                        {% csrf_token %}
+                        <input class="none" type="text" name="button" value="rightRefresh" ></input>
+                        <button class="refresh hidden" type="submit"><img src="{% static 'images/refresh.png' %}"></button>
+                    </form>
+                </div>
+                <div class="bookbox">
+                    <form action="/gojangnanAladin/change/" method="post">
+                        {% csrf_token %}
+                        <input class="none" type="text" name="button" value="leftArrow" ></input>
+                        <button class="leftarrow hidden" type="submit"><img src="{% static 'images/arrow.png' %}"></button>
+                    </form>
+                        <ul class="clear">
+                            <li>
+                                <a href="{% url 'detailbook' %}{{book1.id}}"><img src="{{ book1.image }}"><p class="aboutbook  first">{{ book1.name }}<br>({{ book1.author }})</p></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'detailbook' %}{{book2.id}}"><img src="{{ book2.image }}"><p class="aboutbook">{{ book2.name }}<br>({{ book2.author }})</p></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'detailbook' %}{{book3.id}}"><img src="{{ book3.image }}"><p class="aboutbook">{{ book3.name }}<br>({{ book3.author }})</p></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'detailbook' %}{{book4.id}}"><img src="{{ book4.image }}"><p class="aboutbook">{{ book4.name }}<br>({{ book4.author }})</p></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'detailbook' %}{{book5.id}}"><img src="{{ book5.image }}"><p class="aboutbook">{{ book5.name }}<br>({{ book5.author }})</p></a>
+                            </li>
+                        </ul>
+                    <form action="/gojangnanAladin/change/" method="post">
+                        {% csrf_token %}
+                        <input class="none" type="text" name="button" value="rightArrow"></input>
+                        
+                        <button class="rightarrow hidden" type="submit"><img src="{% static 'images/arrow.png' %}"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <div class="title">
+                    <h3>추천2</h3>
+                    <a class="refresh" href="#"><img src="{% static 'images/refresh.png' %}"></a>
+                </div>
+                <div class="bookbox">
+                    <a class="leftarrow" href="#"><img src="{% static 'images/arrow.png' %}"></a>
+                    <ul class="clear">
+                        <li><a href="{% url 'detailbook' %}{{book1.id}}"><img src="{{ book1.image }}"></a><p class="aboutbook  first">{{ book1.name }}<br>({{ book1.author }})</p></li>
+                        <li><a href="{% url 'detailbook' %}{{book2.id}}"><img src="{{ book2.image }}"></a><p class="aboutbook">{{ book2.name }}<br>({{ book2.author }})</p></li>
+                        <li><a href="{% url 'detailbook' %}{{book3.id}}"><img src="{{ book3.image }}"></a><p class="aboutbook">{{ book3.name }}<br>({{ book3.author }})</p></li>
+                        <li><a href="{% url 'detailbook' %}{{book4.id}}"><img src="{{ book4.image }}"></a><p class="aboutbook">{{ book4.name }}<br>({{ book4.author }})</p></li>
+                        <li><a href="{% url 'detailbook' %}{{book5.id}}"><img src="{{ book5.image }}"></a><p class="aboutbook">{{ book5.name }}<br>({{ book5.author }})</p></li>
+                    </ul>
+                    <a class="rightarrow" href="#"><img src="{% static 'images/arrow.png' %}"></a>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <div class="title">
+                    <h3>추천3</h3>
+                    <a class="refresh" href="#"><img src="{% static 'images/refresh.png' %}"></a>
+                </div>
+                <div class="bookbox">
+                    <a class="leftarrow" href="#"><img src="{% static 'images/arrow.png' %}"></a>
+                    <ul class="clear">
+                        <li><a href="{% url 'detailbook' %}"><img src="{{ book1.image }}"></a><p class="aboutbook first">{{ book1.name }}<br>({{ book1.author }})</p></li>
+                        <li><a href="{% url 'detailbook' %}"><img src="{{ book2.image }}"></a><p class="aboutbook">{{ book2.name }}<br>({{ book2.author }})</p></li>
+                        <li><a href="{% url 'detailbook' %}"><img src="{{ book3.image }}"></a><p class="aboutbook">{{ book3.name }}<br>({{ book3.author }})</p></li>
+                        <li><a href="{% url 'detailbook' %}"><img src="{{ book4.image }}"></a><p class="aboutbook">{{ book4.name }}<br>({{ book4.author }})</p></li>
+                        <li><a href="{% url 'detailbook' %}"><img src="{{ book5.image }}"></a><p class="aboutbook">{{ book5.name }}<br>({{ book5.author }})</p></li>
+                    </ul>
+                    <a class="rightarrow" href="#"><img src="{% static 'images/arrow.png' %}"></a>
+                </div>
+            </div>
+        </div>
+        <!--container 끝-->
+    </div>
+    <!--wrap 끝-->
+</body>
+</html>

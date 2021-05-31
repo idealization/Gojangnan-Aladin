@@ -1,0 +1,48 @@
+.skipnavi {
+    position: absolute;
+    left: 0; top: -50; text-indent: -9999px; font-size: 0; width: 100%; z-index: 999;
+}
+
+.skipnavi > li > a:focus, .skipnavi > li > a:active {
+    position: absolute;
+    left: 0; top: 50px; display: block; width: 100%; padding: 5px; text-align: center; text-indent: 0; font-size: 12px; font-weight: bold; background: #f2f2f2;
+}
+ul, li {list-style: none;}
+* {margin:0; padding:0;text-decoration: none;}
+.none {display: none;}
+.hidden {visibility: hidden;}
+.hidden img {visibility: visible;}
+.title button {height: fit-content; display: inline;}
+
+header {width: 1540px; height: 150px; margin:auto; margin-top:40px;background-color: beige; line-height: 150px;}
+#logo { width: 600px; padding-left: 25%; display: inline-block; vertical-align: middle;}
+#logo a {text-decoration: none;}
+#logo h1 {font-size: 39px; height:50px; width:350px; vertical-align: top; margin-left: 30px; text-align: center; display: inline-block;}
+#logo img {height: 100px; width: 150px; vertical-align: middle; text-align: center; display: inline-block;}
+navi {float:right; display: inline-block; vertical-align: top; padding-right: 5%;}
+navi > ul {display: inline; font-size: 20px; font-weight: bold;}
+navi > ul a {color: dimgrey;}
+navi > ul a::after {content: "|"; padding:0 5px; color: black;}
+navi > ul a:last-child { padding-right: 0;}
+navi > ul a:last-child::after {content:"";display: none;}
+.bookbox {overflow: hidden; display: inline-block;background-color:rgb(221,160,221,0.3); width: 1550px; height: 350px; padding: 1em 0;}
+.bookbox li { float: left;}
+.bookbox img {width: 200px; height:280px; vertical-align: middle; padding: 1em 3em 0 0; display: block;}
+.bookbox li:first-child img { padding-left: 4em;}
+.bookbox li:last-child img { padding-right: 0;}
+
+.bookbox .aboutbook {font-size: 20px; display: block; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:black; overflow: auto; text-decoration: none; width:200px; margin:0;}
+.bookbox .first {padding-left: 3em;}
+
+.box { width: 1550px;height: 450px; display:block;margin: auto; margin-top: 2em; }
+.box .title { display:flex; height: 66px; background-color: rgb(135, 206, 235, 0.3); }
+.box h3 { width:93%; font-size: 28px ; padding: 0.5em 2em 0em 2em; display: block;}
+
+.refresh {align-self: flex-end; float: right; margin: 5px 20px 0 0;}
+.refresh img { height: 55px; width:55px; }
+
+.leftarrow { display: inline-block; float: left; width: 6%;line-height: 450px;}
+.leftarrow img {transform: rotate(180deg); width: 100%;height:150px; margin-top:90px;padding: 0;}
+
+.rightarrow {display: inline-block; float: right; width: 6%;line-height: 450px;}
+.rightarrow img {margin-top:90px;width: 100px;height:150px; padding: 0;}
