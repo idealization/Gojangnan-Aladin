@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container my-3">
+    <div class="text-center">
+        <div class="container mb-3">
+            <img src="/static/img/logo.png" class="w-25 h-25" alt="logo">
+        <h1 class="font-weight-bold">GOJANGNAN ALADIN</h1>
+        </div>
+        <form method="post" class="post-form" action="{% url 'common:signin' %}">
+            {% csrf_token %}
+            {% include "form_errors.html" %}
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" id="username"
+                               value="{{ form.username.value|default_if_none:'' }}" placeholder="ID">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" id="password"
+                               value="{{ form.password.value|default_if_none:'' }}" placeholder="PASSWORD">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">SIGN IN</button>
+        </form>
+        <p>--or--</p>
+        <a class="btn btn-outline-secondary" href="{% url 'common:signup' %}" role="button">SIGN UP</a>
+    </div>
+    <div class="text-right">
+        <a href="http://127.0.0.1:8000/admin" class="text-muted">admin</a>
+    </div>
+</div>
+{% endblock %}
+
+
