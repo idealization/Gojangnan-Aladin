@@ -4,7 +4,7 @@
 {% block title %}
     Prepare Payment
 {% endblock %}
-
+{% comment %} 
 {% block content %}
     <h1>Order</h1>
     <hr />
@@ -16,13 +16,13 @@
         </colgroup>
         <th class="table_title">title</th>
         <th class="table_title">price</th>
-        {% for book in book_list %}
+        {% for book in cart_items %}
         <tr>
             <td class="table_row">
-                {{book.book_id}}
+                {{book.product.name}}
             </td>
             <td class="table_row">
-                {{book.book_price}}
+                {{book.product.price}}
             </td>
         </tr>
         {% endfor %}
@@ -48,4 +48,109 @@
         </center>
         </p>
     </form>
+{% endblock %} {% endcomment %}
+{% block content %}
+    {% if not ordered_books %}
+        <div>
+            <div class = "text-center">
+                <br>
+                <h1 class = "text-center my_title">
+                    Your shopping cart is empty
+                </h1>
+                <br>
+                <p class="text-center">
+                    Please Click <a href="{% url 'shop:allProdCat' %}">here</a> to continue shopping.
+                </p>
+            </div>
+        </div>
+    {% else %}
+        <div>
+            <div class="text-center">
+                <br>
+                <h1 class = "text-center my_title">
+                    Order
+                </h1>
+                <br>
+            </div>
+        </div>
+        <div class="row mx-auto">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
+                <table class="table my_custom_table">
+                    <thread class="my_custom_thread">
+                        <tr>
+                            <th colspan="5">
+                                Your items
+                            </th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        {% for order_item in ordered_books %}
+                            <tr>
+                                <td>
+                                    <a href="{{ order_item.product.get_absolute_url }}"><img src="{{ order_item.product.image.url }}"
+                                        alt="" class="float-left rounded custom_image"></a>
+                                </td>
+                                <td class="text-left">
+                                    {{ order_item.product.name }}
+                                    <br>
+                                    SKU: {{ order_item.product.id }}
+                                    <br>
+                                    Unit Price: A${{ order_item.product.price }}
+                                    <br>
+                                    Qty: {{ order_item.quantity }} x A${{ order_item.product.price }}
+                                </td>
+                                <td>
+                                    A${{ order_item.sub_total }}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
+                <table class="table my_custom_table">
+                    <thread class="my_custom_thread">
+                        <tr>
+                            <th>
+                                Insert Delivery Information
+                            </td>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Please review your shopping cart items before proceeding with the order payment.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">
+                                Your total is : <strong>A${{ total }}</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form method="POST">
+                    {% csrf_token %}
+                    <p>
+                        <h3>Name</h3>
+                        <input class="input_info" name="user_name" required />
+                    </p>
+                    <p>
+                        <h3>Phone Number</h3>
+                        <input class="input_info" name="user_phone" required />
+                    </p>
+                    <p>
+                        <h3>Address</h3>
+                        <input class="input_info" name="user_address" required />
+                    </p>
+                    <p>
+                    <center>
+                        <input type="submit" value="Buy" />
+                    </center>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <br>
+    {% endif %}
 {% endblock %}

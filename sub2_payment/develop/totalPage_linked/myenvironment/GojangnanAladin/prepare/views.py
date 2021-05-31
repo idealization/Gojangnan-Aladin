@@ -1,30 +1,39 @@
-from django.shortcuts import render
-from .models import UserDeliveryInfo
+from django.shortcuts import render, redirect
+from .models import Order
+from .models import OrderDeliveryInfo
 from .models import OrderedBookList
-from .models import Book
+from cart.models import Cart, CartItem
+from cart.views import _cart_id
+from django.core.exceptions import ObjectDoesNotExist
+from django.contrib.auth.decorators import login_required
 from django.views.generic import View
-from django.http import HttpResponse
-from django.http import HttpResponseRedirect
 
 # Create your views here.
-
-
 class Order(View):
+    # @login_required(login_url='account:login')
     def get(self, request):
-        ordered_book_lists = OrderedBookList.objects.all()
-        book_lists = Book.objects.all()
-        book_list = []
-        for item in ordered_book_lists:
-            if item.ordered_user_id == 'user1':
-                book_list.append(item.ordered_book_id)
-                for book in book_lists:
-                    if book.book_id == item.ordered_book_id:
-                        book_list.append(book)
-        context = {
-            'book_list': book_list,
-        }
-        return render(request, 'prepare/order.html', context)
+        try:
+            user = request.user
 
+            if user.is_authenticated:
+                total = 0
+                counter = 0
+                ordered_books = None
+
+                cart = Cart.objects.get(user = request.user)
+                ordered_books = CartItem.objects.filter(cart=cart, activate=True)
+                for ordered_book in ordered_books:
+                    total += (ordered_book.product.price * ordered_book.quantity)
+                    counter += ordered_book.quantity
+            else:
+                raise ObjectDoesNotExist()
+
+        except ObjectDoesNotExist:
+            pass
+
+        return render(request, 'prepare/order.html', dict(ordered_books = ordered_books, total = total, counter = counter))
+
+    # @login_required(login_url='account:login')
     def post(self, request):
         name = request.POST.get('user_name')
         phone = request.POST.get('user_phone')
@@ -42,3 +51,66 @@ class Order(View):
         return render(request, 'prepare/result.html', context)
 
 
+@login_required(login_url='account:login')
+def _order_id(request):
+    order = request.session.session_key
+    if not order:
+        order = request.sessions.create()
+    return order
+
+@login_required(login_url='account:login')
+def add_order(request):
+
+    try:
+        user = request.user
+    except BaseException:
+        pass
+
+    try:
+        cart = Cart.objects.get(user = request.user)
+
+    except Cart.DoesNotExist:
+        cart = Cart.objects.create(
+            user = request.user,
+            cart_id = _cart_id(request)
+        )
+        cart.save()
+
+    try:
+        total = 0
+        counter = 0
+        ordered_books = None
+
+        cart = Cart.objects.get(user = request.user)
+        ordered_books = CartItem.objects.filter(cart=cart, activate=True)
+        for ordered_book in ordered_books:
+            total += (ordered_book.product.price * ordered_book.quantity)
+            counter += ordered_book.quantity
+
+        order = Order.objects.create(
+            user = request.user,
+            order_id = _order_id(request),
+            price = total
+        )
+        order.save()
+
+        deliveryInfo = OrderDeliveryInfo.objects.create(
+            order = order,
+            user_name = request.POST.get('user_name'),
+            user_phone = request.POST.get('user_phone'),
+            user_address = request.POST.get('user_address'),
+        )
+        deliveryInfo.save()
+
+        for ordered_book in ordered_books:
+            orderedBook = OrderedBookList.objects.create(
+                order = order,
+                product = ordered_book,
+                quantity = ordered_book.quantity,
+            )
+            orderedBook.save()
+
+    except:
+        pass
+
+    return redirect('prepare/result.html')
