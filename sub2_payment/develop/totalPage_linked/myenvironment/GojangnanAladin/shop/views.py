@@ -4,9 +4,9 @@ from .models import Category, Product
 from django.core.paginator import Paginator, EmptyPage, InvalidPage
 
 # Create your views here.
-def index(request):
-    text_var = "This is my first Django app web page!!"
-    return HttpResponse(text_var)
+# def index(request):
+#     text_var = "This is my first Django app web page!!"
+#     return HttpResponse(text_var)
 
 def allProdCat(request, c_slug=None):
     c_page = None

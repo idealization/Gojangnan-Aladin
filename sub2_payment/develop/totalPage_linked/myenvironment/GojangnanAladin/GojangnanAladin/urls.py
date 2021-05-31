@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from shop import views
+from account import views
 
 # Add libraries
 from django.conf import settings
@@ -23,9 +23,11 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name="index"),
+    # path('', views.index, name="index"),
+    path('', include('account.urls', namespace='account')),
     path('shop/', include("shop.urls")),
-    path('cart/', include('cart.urls'))
+    path('cart/', include('cart.urls')),
+    path('order/', include('prepare.urls')),
 ]
 
 if settings.DEBUG:

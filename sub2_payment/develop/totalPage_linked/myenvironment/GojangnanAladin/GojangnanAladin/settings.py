@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'shop',
     'cart',
+    'prepare',
+    'account',
 ]
 
 MIDDLEWARE = [
@@ -60,6 +62,8 @@ TEMPLATES = [
             str(BASE_DIR.joinpath('templates')),
             str(BASE_DIR.joinpath('shop','templates')),
             str(BASE_DIR.joinpath('cart','templates')),
+            str(BASE_DIR.joinpath('prepare','templates')),
+            str(BASE_DIR.joinpath('account','templates')),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -74,6 +78,9 @@ TEMPLATES = [
         },
     },
 ]
+
+LOGIN_REDIRECT_URL = 'shop/'
+LOGOUT_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'GojangnanAladin.wsgi.application'
 
