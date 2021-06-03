@@ -113,7 +113,7 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 ### (Object) Sequence Diagram
 
-![UC-1_draft](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd1.png?raw=true)
+![UC-1_draft](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd1.png)
 
 **장점**
 
@@ -127,7 +127,7 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 #### Variation 1
 
-![UC-1_va1](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd1_va1.png?raw=true)
+![UC-1_va1](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd1_va1.png)
 
 **장점**
 
@@ -143,19 +143,19 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 variation1
 
-![UC-1_selectedOSD](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd1_va1.png?raw=true)
+![UC-1_selectedOSD](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd1_va1.png)
 
 **선택한 이유**: 두 OSD 모두 고객의 요구를 잘 반영하지만 variation1이 이후 시스템 유지 보수에 있어 더 적합하다고 판단했기 때문
 
 ### Class Diagram based on selected OSD
 
-![UC-1_CD](https://github.com/idealization/software-engineering/raw/main/Class_Diagram/02_payment/img/UC-1,3_va1.png?raw=true)
+![UC-1_CD](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/2.Payment_System/img/UC-1%2C3_va1.png)
 
 ## UC-2: Payment Process
 
 ### (Object) Sequence Diagram
 
-![UC-1_draft](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2.png?raw=true)
+![UC-1_draft](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd2.png)
 
 **장점**
 
@@ -171,7 +171,7 @@ variation1
 
 #### Variation 1
 
-![UC-2_va1](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2_va1.png?raw=true)
+![UC-2_va1](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd2_va1.png)
 
 **장점**
 
@@ -187,7 +187,7 @@ variation1
 
 #### Variation 2
 
-![UC-2_va2](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2_va2.png?raw=true)
+![UC-2_va2](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd2_va2.png)
 
 **장점**
 
@@ -203,7 +203,7 @@ variation1
 
 #### Variation 3
 
-![UC-2_va3](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2_va3.png?raw=true)
+![UC-2_va3](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd2_va3.png)
 
 **장점**
 
@@ -220,19 +220,19 @@ variation1
 
 variation3
 
-![UC-2_selectedOSD](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd2_va3.png?raw=true)
+![UC-2_selectedOSD](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd2_va3.png)
 
 **선택한 이유**: variation3은 적당히 짧은 communication chain을 가지며 Strong Cohesion Principle에 부합하고, 또한 어느정도 비슷한 기능끼리 묶여있으며, 유지 보수 비용이 적은 편인 OSD이기 때문
 
 ### Class Diagram based on selected OSD
 
-![UC-2_CD](https://github.com/idealization/software-engineering/raw/main/Class_Diagram/02_payment/img/UC-2_va3.png?raw=true)
+![UC-2_CD](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/2.Payment_System/img/UC-2_va3.png)
 
 ## UC-3: Cart
 
 ### (Object) Sequence Diagram
 
-![UC-2_draft](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd3.png?raw=true)
+![UC-2_draft](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd3.png)
 
 **장점**
 
@@ -246,7 +246,7 @@ variation3
 
 #### Variation 1
 
-![UC-3_va1](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd3_va1.png?raw=true)
+![UC-3_va1](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd3_va1.png)
 
 **장점**
 
@@ -262,13 +262,13 @@ variation3
 
 variation1
 
-![UC-3_selectedOSD](https://github.com/idealization/software-engineering/raw/main/OSD/02_payment/image/osd3_va1.png?raw=true)
+![UC-3_selectedOSD](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd3_va1.png)
 
 **선택한 이유**: 두 OSD 모두 고객의 요구를 잘 반영하지만 variation1이 이후 시스템 유지 보수에 있어 더 적합하다고 판단했기 때문
 
 ### Class Diagram based on selected OSD
 
-![UC-3_CD](https://github.com/idealization/software-engineering/raw/main/Class_Diagram/02_payment/img/UC-1,3_va1.png?raw=true)
+![UC-3_CD](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/2.Payment_System/img/UC-1%2C3_va1.png)
 
 # 3. Recommendation
 
