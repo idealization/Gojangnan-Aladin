@@ -81,13 +81,13 @@ These reqs are related to use case 1, 2, 3.
 #### Detailed
 
 ##### UC-1
-![detail_osd1](https://github.com/idealization/software-engineering/blob/main/OSD/02_payment/image/osd1.png?raw=true)
+![detail_osd1](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd1.png?raw=true)
 
 ##### UC-2
-![detail_osd2](https://github.com/idealization/software-engineering/blob/main/OSD/02_payment/image/osd2.png?raw=true)
+![detail_osd2](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd2.png?raw=true)
 
 ##### UC-3
-![detail_osd1](https://github.com/idealization/software-engineering/blob/main/OSD/02_payment/image/osd3.png?raw=true)
+![detail_osd1](https://github.com/idealization/software-engineering/blob/main/OSD/2.Payment_System/image/osd3.png?raw=true)
 
 ### We found some variations in our diagrams.
 
