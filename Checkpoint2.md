@@ -53,7 +53,7 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 ### (Object) Sequence Diagram
 
-![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09.jpg)
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/1.Basic_System/image/osd09.jpg)
 
 **장점**: 수정된 내용을 모두 db connection에 저장하놓고 있다가 수정이 모두 끝나면 한번에 update를 한다. 
 
@@ -61,7 +61,7 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 #### Variation 1
 
-![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09-1.jpg)
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/1.Basic_System/image/osd09-1.jpg)
 
 **장점**: 수정할 때마다 update가 되므로 중간에 시스템이 꺼져도 내용은 그대로 있다.
 
@@ -70,19 +70,19 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 #### 최종 선택된 OSD
 
-![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd09.jpg)
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/1.Basic_System/image/osd09.jpg)
 
 **선택한 이유**: 계속 database에 update를 하거나 load할 필요가 없으니 빨리빨리 수정이 가능하다.
 
 ### Class Diagram based on selected OSD
 
-![image](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/01_basic/image/09.jpg)
+![image](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/1.Basic_System/image/09.jpg)
 
 ## UC-10: Admin Account
 
 ### (Object) Sequence Diagram
 
-![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10.jpg)
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/1.Basic_System/image/osd10.jpg)
 
 **장점**: authorizer 가 있기 때문에 정보에 신뢰성이 있고 vaild한 데이터만 저장하는 검문소 역할을 할 수 있다.
 
@@ -90,7 +90,7 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 #### Variation 1
 
-![iamge](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10-1.jpg)
+![iamge](https://github.com/idealization/software-engineering/blob/main/OSD/1.Basic_System/image/osd10-1.jpg)
 
 **장점**: authorizer 가 없기 때문에 빨리 database에 update가 가능하다.
 
@@ -99,13 +99,13 @@ Sequence Diagram and Class Diagram for Use Case based on top 30% Requirements An
 
 #### 최종 선택된 OSD
 
-![image](https://github.com/idealization/software-engineering/blob/main/OSD/01_basic/image/osd10.jpg)
+![image](https://github.com/idealization/software-engineering/blob/main/OSD/1.Basic_System/image/osd10.jpg)
 
 **선택한 이유**: 시간이 조금 더 걸리지만 vaild 한 데이터만 저장하도록 한다
 
 ### Class Diagram based on selected OSD
 
-![image](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/01_basic/image/10.jpg)
+![image](https://github.com/idealization/software-engineering/blob/main/Class_Diagram/1.Basic_System/image/10.jpg)
 
 # 2. Payment
 
