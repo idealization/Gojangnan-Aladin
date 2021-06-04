@@ -96,7 +96,12 @@ RQ17(F/3) The system shall show the total amount user purchased
 ![SubGroup2_IEEE-830](./Requirement_Engineering/2.Payment_System/image/IEEE-830_after_CustomerChallenge.png)
 
 ### Sub Group 3: Recommendation System
+
+아래 있는 requirement는 사진을 옮기는 과정에서 수정하기 전의 사진이 잘못 들어갔습니다.
 ![image](https://user-images.githubusercontent.com/55435898/115983492-51481a00-a5dc-11eb-81bb-c7554d5c5728.png)
+
+software-engineering/Requirement_Engineering/3.Recommendation_System/의 것이 올바른 사진이므로 참고해주세요.
+![image](https://user-images.githubusercontent.com/49024958/120802088-fd3a3900-c57c-11eb-8d86-33578d0b0843.png)
 
 # System Model
 
